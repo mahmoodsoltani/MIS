@@ -1,0 +1,11 @@
+Data Source=nana-server\SQL2008;Initial Catalog=Nama_MIS;Integrated Security=False;User ID=sa;Password=nanasql
+
+Data Source=ALIS\SQLSERVER2008;Initial Catalog=Nama_MIS;Integrated Security=False;User ID=sa;Password=1234
+
+Data Source=PC01;Initial Catalog=Nama_MIS;Integrated Security=False;User ID=sa;Password=123456
+
+Data Source=ALIS\SQLSERVER2008;Initial Catalog=Nama_MIS;Integrated Security=True
+
+Data Source=192.168.0.150\SQL2008;Initial Catalog=Nama_MIS;Integrated Security=False;User ID=sa;Password=nanasql
+
+Data Source=PC01;Initial Catalog=Nama_MIS;Integrated Security=False;User ID=sa;Password=123456

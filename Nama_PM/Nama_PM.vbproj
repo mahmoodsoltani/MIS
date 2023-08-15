@@ -1,0 +1,3447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9DD2685A-46D7-4FE3-A060-2C3542770A7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Nama_PM.My.MyApplication</StartupObject>
+    <RootNamespace>Nama_PM</RootNamespace>
+    <AssemblyName>Nama_PM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>589e927ab948d_thumb900_AW2_icon.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Nama_PM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Nama_PM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Nama_PM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Nama_PM.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CS_Component, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nama_Component\CS_Component\bin\Debug\CS_Component.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommunication, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Testsms\SMSLibrary\DotNet20\GSMCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PDUConverter, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Testsms\SMSLibrary\DotNet20\PDUConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="VB_Component, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nama_Component\VB_Component\bin\Debug\VB_Component.dll</HintPath>
+    </Reference>
+    <Reference Include="VistaClockPersian, Version=1.2.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>D:\My Project\Nama_PM\Nama_PM\Nama_PM\bin\x86\Debug\VistaClockPersian.dll</HintPath>
+    </Reference>
+    <Reference Include="XPExplorerBar, Version=3.3.0.0, Culture=neutral, PublicKeyToken=26272737b5f33015, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ALisUtility Collection\XPExplorerBar\bin\Debug\XPExplorerBar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="CS_Component" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="VB_Component" />
+    <Import Include="VistaClockPersian" />
+    <Import Include="VistaClockPersian.Controls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\Cls Setting PubFun\Control\KalaSelectManager.Designer.vb">
+      <DependentUpon>KalaSelectManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Cls Setting PubFun\Control\KalaSelectManager.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Ashkhas.vb">
+      <DependentUpon>Ds_Ashkhas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Con.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Con.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Con.vb">
+      <DependentUpon>Ds_Con.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Edu.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Edu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Edu.vb">
+      <DependentUpon>Ds_Edu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Lab.vb">
+      <DependentUpon>Ds_Lab.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Line.Designer.vb">
+      <DependentUpon>Ds_Line.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Line.vb">
+      <DependentUpon>Ds_Line.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Pm.vb">
+      <DependentUpon>Ds_Pm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Rp.vb">
+      <DependentUpon>Ds_Rp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_JonTitle.Designer.vb">
+      <DependentUpon>Frm_JonTitle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_JonTitle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Pm_Company.Designer.vb">
+      <DependentUpon>Frm_Pm_Company.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Pm_Company.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Status.Designer.vb">
+      <DependentUpon>Frm_Status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_AddContactItems.Designer.vb">
+      <DependentUpon>Frm_Con_AddContactItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_AddContactItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_ContractItem.Designer.vb">
+      <DependentUpon>Frm_Con_ContractItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_ContractItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_GroupWeight.Designer.vb">
+      <DependentUpon>Frm_Con_GroupWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_GroupWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_MonthReportConfirmPrice.Designer.vb">
+      <DependentUpon>Frm_Con_MonthReportConfirmPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_MonthReportConfirmPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_NavahiWeight.Designer.vb">
+      <DependentUpon>Frm_Con_NavahiWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_NavahiWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Non_MonthReportVw.Designer.vb">
+      <DependentUpon>Frm_Con_Non_MonthReportVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Non_MonthReportVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_VahedSavedEzafeKar.Designer.vb">
+      <DependentUpon>Frm_Con_VahedSavedEzafeKar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_VahedSavedEzafeKar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_VahedWeight.Designer.vb">
+      <DependentUpon>Frm_Con_VahedWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_VahedWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Zarib.Designer.vb">
+      <DependentUpon>Frm_Con_Zarib.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Zarib.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_MonthReport.Designer.vb">
+      <DependentUpon>Frm_Con_MonthReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_MonthReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusStatementMazad.Designer.vb">
+      <DependentUpon>Frm_Con_StatusStatementMazad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusStatementMazad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Unit.Designer.vb">
+      <DependentUpon>Frm_Con_Unit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Unit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Convert.Designer.vb">
+      <DependentUpon>Frm_Con_Convert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Convert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusStatement.Designer.vb">
+      <DependentUpon>Frm_Con_StatusStatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusStatement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_ContactItemsVw.Designer.vb">
+      <DependentUpon>Frm_Con_ContactItemsVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_ContactItemsVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Contract.Designer.vb">
+      <DependentUpon>Frm_Con_Contract.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Contract.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Item.Designer.vb">
+      <DependentUpon>Frm_Con_Item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Source.Designer.vb">
+      <DependentUpon>Frm_Con_Source.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_Source.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_AddStatusStatement.Designer.vb">
+      <DependentUpon>Frm_Con_AddStatusStatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_AddStatusStatement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_AllStatusStatementVw.Designer.vb">
+      <DependentUpon>Frm_Con_AllStatusStatementVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_AllStatusStatementVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_MonthReportVw.Designer.vb">
+      <DependentUpon>Frm_Con_MonthReportVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_MonthReportVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusstatementItemVw.Designer.vb">
+      <DependentUpon>Frm_Con_StatusstatementItemVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusstatementItemVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\DarkhasteKar\Frm_DarkhasteKar.Designer.vb">
+      <DependentUpon>Frm_DarkhasteKar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\DarkhasteKar\Frm_DarkhasteKar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\DarkhasteKar\Frm_DarkhasteKarVw.Designer.vb">
+      <DependentUpon>Frm_DarkhasteKarVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\DarkhasteKar\Frm_DarkhasteKarVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreParticipatePresent.Designer.vb">
+      <DependentUpon>Frm_Edu_DoreParticipatePresent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreParticipatePresent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_JobDore.Designer.vb">
+      <DependentUpon>Frm_Edu_JobDore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_JobDore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_Evaluation.Designer.vb">
+      <DependentUpon>Frm_Edu_Evaluation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_Evaluation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_EvaluationItem.Designer.vb">
+      <DependentUpon>Frm_Edu_EvaluationItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_EvaluationItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreParticipate.Designer.vb">
+      <DependentUpon>Frm_Edu_DoreParticipate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreParticipate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_Teacher.Designer.vb">
+      <DependentUpon>Frm_Edu_Teacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_Teacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreJob.Designer.vb">
+      <DependentUpon>Frm_Edu_DoreJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibForm.Designer.vb">
+      <DependentUpon>Frm_EibForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibFormVw.Designer.vb">
+      <DependentUpon>Frm_EibFormVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibFormVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Mahal.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_Mahal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Mahal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_MasooleTamir.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_MasooleTamir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_MasooleTamir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Master.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Master_Vw.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_Master_Vw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Master_Vw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tajhiz.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_Tajhiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tajhiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_MahalSelect.Designer.vb">
+      <DependentUpon>Frm_MahalSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_MahalSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Pm_Lab_Rol_Tajhizat.Designer.vb">
+      <DependentUpon>Frm_Pm_Lab_Rol_Tajhizat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Pm_Lab_Rol_Tajhizat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_TajhizSelect.Designer.vb">
+      <DependentUpon>Frm_TajhizSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_TajhizSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusStatementVw.Designer.vb">
+      <DependentUpon>Frm_Con_StatusStatementVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Contract\Frm_Con_StatusStatementVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Dakal.Designer.vb">
+      <DependentUpon>Frm_Dakal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Dakal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Khat_Import.Designer.vb">
+      <DependentUpon>Frm_Khat_Import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Khat_Import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line.Designer.vb">
+      <DependentUpon>Frm_Line.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_CableType.Designer.vb">
+      <DependentUpon>Frm_Line_CableType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_CableType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalCode.Designer.vb">
+      <DependentUpon>Frm_Line_DakalCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalModel.Designer.vb">
+      <DependentUpon>Frm_Line_DakalModel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalModel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalProvider.Designer.vb">
+      <DependentUpon>Frm_Line_DakalProvider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalProvider.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalStructure.Designer.vb">
+      <DependentUpon>Frm_Line_DakalStructure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_DakalStructure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Dakaltype.Designer.vb">
+      <DependentUpon>Frm_Line_Dakaltype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Dakaltype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Fibrtype.Designer.vb">
+      <DependentUpon>Frm_Line_Fibrtype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Fibrtype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Gardtype.Designer.vb">
+      <DependentUpon>Frm_Line_Gardtype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Gardtype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_GeoPosition.Designer.vb">
+      <DependentUpon>Frm_Line_GeoPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_GeoPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_HadiType.Designer.vb">
+      <DependentUpon>Frm_Line_HadiType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_HadiType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_MaghareChain.Designer.vb">
+      <DependentUpon>Frm_Line_MaghareChain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_MaghareChain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_MaghareProvider.Designer.vb">
+      <DependentUpon>Frm_Line_MaghareProvider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_MaghareProvider.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Magharetype.Designer.vb">
+      <DependentUpon>Frm_Line_Magharetype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Magharetype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Voltage.Designer.vb">
+      <DependentUpon>Frm_Line_Voltage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Line\Frm_Line_Voltage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_SahtheVoltage.Designer.vb">
+      <DependentUpon>Frm_SahtheVoltage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_SahtheVoltage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\PublicClass.vb" />
+    <Compile Include="App\Cls Setting PubFun\PublicFunction.vb" />
+    <Compile Include="App\Cls Setting PubFun\Setting.vb">
+    </Compile>
+    <Compile Include="App\Cls Setting PubFun\Setting\Frm_Setting.Designer.vb">
+      <DependentUpon>Frm_Setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Cls Setting PubFun\Setting\Frm_Setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Ashkhas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Ashkhas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Kala.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Kala.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Pm1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Pm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Rp1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Rp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Security.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Security.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Ds\Ds_TimeCard.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_TimeCard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreHolding.Designer.vb">
+      <DependentUpon>Frm_Edu_DoreHolding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreHolding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreType.Designer.vb">
+      <DependentUpon>Frm_Edu_DoreType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DoreType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DorePlace.Designer.vb">
+      <DependentUpon>Frm_Edu_DorePlace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DorePlace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_Dore.Designer.vb">
+      <DependentUpon>Frm_Edu_Dore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_Dore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DorePresenter.Designer.vb">
+      <DependentUpon>Frm_Edu_DorePresenter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Edu\Frm_Edu_DorePresenter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Ashkhas.Designer.vb">
+      <DependentUpon>Frm_Ashkhas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Ashkhas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Sherkatha.Designer.vb">
+      <DependentUpon>Frm_Sherkatha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_Sherkatha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_UserAshkhas.Designer.vb">
+      <DependentUpon>Frm_UserAshkhas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Ashkhas\Frm_UserAshkhas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_Vahed.Designer.vb">
+      <DependentUpon>Frm_Vahed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_Vahed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_PmWithDevice.Designer.vb">
+      <DependentUpon>Frm_PmWithDevice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_PmWithDevice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_PmTimeTableIMG.Designer.vb">
+      <DependentUpon>Frm_PmTimeTableIMG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_PmTimeTableIMG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_ANSI.Designer.vb">
+      <DependentUpon>Frm_ANSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_ANSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_PmProgram.Designer.vb">
+      <DependentUpon>Frm_PmProgram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_PmProgram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Template_Add.Designer.vb">
+      <DependentUpon>Frm_Template_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Template_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Template.Designer.vb">
+      <DependentUpon>Frm_Template.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Template.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Cable.Designer.vb">
+      <DependentUpon>Frm_Cable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Cable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_TranseVoltaj.Designer.vb">
+      <DependentUpon>Frm_TranseVoltaj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_TranseVoltaj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Breaker.Designer.vb">
+      <DependentUpon>Frm_Breaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Breaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Sexioner.Designer.vb">
+      <DependentUpon>Frm_Sexioner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Sexioner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_BarghGir.Designer.vb">
+      <DependentUpon>Frm_BarghGir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_BarghGir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_TranseGhodrat.Designer.vb">
+      <DependentUpon>Frm_TranseGhodrat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_TranseGhodrat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Rele.Designer.vb">
+      <DependentUpon>Frm_Rele.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Tajhizat\Frm_Rele.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Attachment.Designer.vb">
+      <DependentUpon>Frm_Attachment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Attachment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Frm_Main.Designer.vb">
+      <DependentUpon>Frm_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Frm_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese.Designer.vb">
+      <DependentUpon>Frm_Hadese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_PostType.Designer.vb">
+      <DependentUpon>Frm_PostType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_PostType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Sms\Frm_SmsVw.Designer.vb">
+      <DependentUpon>Frm_SmsVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Sms\Frm_SmsVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibFormAttachment.Designer.vb">
+      <DependentUpon>Frm_EibFormAttachment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibFormAttachment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_ImportantPercent.Designer.vb">
+      <DependentUpon>Frm_ImportantPercent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_ImportantPercent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_DeviceSelectWithPost.Designer.vb">
+      <DependentUpon>Frm_DeviceSelectWithPost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_DeviceSelectWithPost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_DeviceSelect.Designer.vb">
+      <DependentUpon>Frm_DeviceSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_DeviceSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_CancelCause.Designer.vb">
+      <DependentUpon>Frm_CancelCause.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_CancelCause.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_RecomendationSubject.Designer.vb">
+      <DependentUpon>Frm_RecomendationSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_RecomendationSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_SubRecomendationSubject.Designer.vb">
+      <DependentUpon>Frm_SubRecomendationSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_SubRecomendationSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_DeviceName.Designer.vb">
+      <DependentUpon>Frm_DeviceName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_DeviceName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_PostToGroup.Designer.vb">
+      <DependentUpon>Frm_PostToGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_PostToGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Status Statement\Items.Designer.vb">
+      <DependentUpon>Items.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Status Statement\Items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\suggestion\Frm_Pishnahad.Designer.vb">
+      <DependentUpon>Frm_Pishnahad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\suggestion\Frm_Pishnahad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\suggestion\Frm_PishnahadView.Designer.vb">
+      <DependentUpon>Frm_PishnahadView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\suggestion\Frm_PishnahadView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\suggestion\Frm_Sender.Designer.vb">
+      <DependentUpon>Frm_Sender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\suggestion\Frm_Sender.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_EditTimeCardAdmin.Designer.vb">
+      <DependentUpon>Frm_EditTimeCardAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_EditTimeCardAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_EditTimeCardUser.Designer.vb">
+      <DependentUpon>Frm_EditTimeCardUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_EditTimeCardUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_EditTimeCard.Designer.vb">
+      <DependentUpon>Frm_EditTimeCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_EditTimeCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_Hzg_OpenFile.Designer.vb">
+      <DependentUpon>Frm_Hzg_OpenFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_Hzg_OpenFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_ShowWorkForm.Designer.vb">
+      <DependentUpon>Frm_ShowWorkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_ShowWorkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm.Designer.vb">
+      <DependentUpon>Frm_WorkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Edit.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkSharh_WorkForm.Designer.vb">
+      <DependentUpon>Frm_WorkSharh_WorkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkSharh_WorkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_SelectPmProgram.Designer.vb">
+      <DependentUpon>Frm_SelectPmProgram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_SelectPmProgram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Sharh.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Sharh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Sharh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_CodeHazine.Designer.vb">
+      <DependentUpon>Frm_CodeHazine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_CodeHazine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibType.Designer.vb">
+      <DependentUpon>Frm_EibType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_EibType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Dis.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Dis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Dis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_Distance.Designer.vb">
+      <DependentUpon>Frm_Distance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_Distance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post_Model.Designer.vb">
+      <DependentUpon>Frm_Post_Model.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post_Model.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_FixEibDis.Designer.vb">
+      <DependentUpon>Frm_FixEibDis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Eib Form\Frm_FixEibDis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_GroupMember.Designer.vb">
+      <DependentUpon>Frm_GroupMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_GroupMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post_Tip.Designer.vb">
+      <DependentUpon>Frm_Post_Tip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post_Tip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post.Designer.vb">
+      <DependentUpon>Frm_Post.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_Group.Designer.vb">
+      <DependentUpon>Frm_Group.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\BaseForms\Frm_Group.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post_Pishnahad.Designer.vb">
+      <DependentUpon>Frm_Post_Pishnahad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Post\Frm_Post_Pishnahad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Other\Frm_Wait.designer.vb">
+      <DependentUpon>Frm_Wait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Other\Frm_Wait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_HadeseVw.Designer.vb">
+      <DependentUpon>Frm_HadeseVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_HadeseVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_Amalkard.Designer.vb">
+      <DependentUpon>Frm_Hadese_Amalkard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_Amalkard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Device.Designer.vb">
+      <DependentUpon>Frm_Device.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Device.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Device_Add.Designer.vb">
+      <DependentUpon>Frm_Device_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Device_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_ElateBoroz.Designer.vb">
+      <DependentUpon>Frm_Hadese_ElateBoroz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_ElateBoroz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_KhesaratType.Designer.vb">
+      <DependentUpon>Frm_Hadese_KhesaratType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_KhesaratType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_SharayetBoroz.Designer.vb">
+      <DependentUpon>Frm_Hadese_SharayetBoroz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Hadese\Frm_Hadese_SharayetBoroz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_SatheAhamniat.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_SatheAhamniat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_SatheAhamniat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_ElateVorod.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_ElateVorod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_ElateVorod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tamir.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_Tamir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tamir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tamir_Vw.Designer.vb">
+      <DependentUpon>Frm_Lab_Rol_Tamir_Vw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tamir_Vw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lal_Rol_GhatateMasrafi.Designer.vb">
+      <DependentUpon>Frm_Lal_Rol_GhatateMasrafi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Lab_Rol\Frm_Lal_Rol_GhatateMasrafi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Device_Sazande.Designer.vb">
+      <DependentUpon>Frm_Device_Sazande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_Device_Sazande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Other\Image_Viewer.Designer.vb">
+      <DependentUpon>Image_Viewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Other\Image_Viewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_Formula.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Formula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_Formula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_FormulaShow.Designer.vb">
+      <DependentUpon>Frm_WorkForm_FormulaShow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_FormulaShow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_Formul_Profile.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Formul_Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_Formul_Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\contract\Rp_MonthReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MonthReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\contract\Rp_MonthReport_Detail.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MonthReport_Detail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\contract\Rp_MonthReport_Detail_Group.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MonthReport_Detail_Group.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\contract\Rp_StatusStatement.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_StatusStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\contract\Rp_SummaryStatusstatementExtraWork.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_SummaryStatusstatementExtraWork.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Darkhast_Kar\DarkhasteKarVw.vb">
+      <DependentUpon>DarkhasteKarVw.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Darkhast_Kar\DarkhasteKar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DarkhasteKar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Cable.vb">
+      <DependentUpon>Rp_Cable.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Tajhiz.vb">
+      <DependentUpon>Rp_Tajhiz.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Transe.vb">
+      <DependentUpon>Rp_Transe.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Breaker.vb">
+      <DependentUpon>Rp_Breaker.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Sexioner.vb">
+      <DependentUpon>Rp_Sexioner.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Barghgir.vb">
+      <DependentUpon>Rp_Barghgir.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_TranseGhodrat.vb">
+      <DependentUpon>Rp_TranseGhodrat.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiExtraworkF.vb">
+      <DependentUpon>Rp_MultiExtraworkF.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_EibFom.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_EibFom.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_HazineCodeExtraWork.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_HazineCodeExtraWork.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiExtraWork.vb">
+      <DependentUpon>Rp_MultiExtraWork.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiExtraworkAzarakhsh.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MultiExtraworkAzarakhsh.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiExtraworkFanavaran.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MultiExtraworkFanavaran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiExtraWorkLast.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MultiExtraWorkLast.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiExtraWorkmashrih.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MultiExtraWorkmashrih.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_MultiStatusExtraWorkmashrih.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MultiStatusExtraWorkmashrih.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_SummaryExtraWorkF.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_SummaryExtraWorkF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Lab_Rol\Lab.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lab.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Post\Rp_Post.vb">
+      <DependentUpon>Rp_Post.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Lab_Rol\Rp_Lab_Rol_Search.vb">
+      <DependentUpon>Rp_Lab_Rol_Search.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Hadese\Rp_Hadese_PrintAll.vb">
+      <DependentUpon>Rp_Hadese_PrintAll.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Amo\Rp_Amo_Dore.vb">
+      <DependentUpon>Rp_Amo_Dore.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Amo\Rp_Amo_PrintAll.vb">
+      <DependentUpon>Rp_Amo_PrintAll.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Pm\Rp_PmCancleCause.vb">
+      <DependentUpon>Rp_PmCancleCause.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Post\Rp_PostRecom.vb">
+      <DependentUpon>Rp_PostRecom.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Rp_Edu\Edu\Rp_Edu_Dore.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_Edu_Dore.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Suggestion\Rp-Mosavabat1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp-Mosavabat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Suggestion\Rp_Pishnahad1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_Pishnahad.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\WrokForm\Rp_KholaseWorkForm.vb">
+      <DependentUpon>Rp_KholaseWorkForm.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Amo\Frm_Rp_Amo_View.Designer.vb">
+      <DependentUpon>Frm_Rp_Amo_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Amo\Frm_Rp_Amo_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_RpStatusStatementExtraWork.Designer.vb">
+      <DependentUpon>Frm_RpStatusStatementExtraWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_RpStatusStatementExtraWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_Rp_MonthReport.Designer.vb">
+      <DependentUpon>Frm_Rp_MonthReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_Rp_MonthReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_Rp_MonthReportDetail.Designer.vb">
+      <DependentUpon>Frm_Rp_MonthReportDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_Rp_MonthReportDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_Rp_StatusStatement.Designer.vb">
+      <DependentUpon>Frm_Rp_StatusStatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_Rp_StatusStatement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_SummaryRpStatusStatementExtraWork.Designer.vb">
+      <DependentUpon>Frm_SummaryRpStatusStatementExtraWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\contract\Frm_SummaryRpStatusStatementExtraWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\DarkhasteKar\Frm_RpDarkhasteKar.Designer.vb">
+      <DependentUpon>Frm_RpDarkhasteKar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\DarkhasteKar\Frm_RpDarkhasteKar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Device\Frm_RpDevice.Designer.vb">
+      <DependentUpon>Frm_RpDevice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Device\Frm_RpDevice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Education\Frm_Rp_ٍEvaluationVw.Designer.vb">
+      <DependentUpon>Frm_Rp_ٍEvaluationVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Education\Frm_Rp_ٍEvaluationVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpEibImportantGraph.Designer.vb">
+      <DependentUpon>Frm_RpEibImportantGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpEibImportantGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpIndex.Designer.vb">
+      <DependentUpon>Frm_RpIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpEibForm.Designer.vb">
+      <DependentUpon>Frm_RpEibForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpEibForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Education\Frm_Rp_DoreVw.Designer.vb">
+      <DependentUpon>Frm_Rp_DoreVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Education\Frm_Rp_DoreVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Tamirat.Designer.vb">
+      <DependentUpon>Frm_Rp_Tamirat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Tamirat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPmMonth.Designer.vb">
+      <DependentUpon>Frm_RpPmMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPmMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPmCancle.Designer.vb">
+      <DependentUpon>Frm_RpPmCancle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPmCancle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPostPm.Designer.vb">
+      <DependentUpon>Frm_RpPostPm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPostPm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPostPMGraph.Designer.vb">
+      <DependentUpon>Frm_RpPostPMGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\PM\Frm_RpPostPMGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpRecomendation.Designer.vb">
+      <DependentUpon>Frm_RpRecomendation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpRecomendation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpEibGraph.Designer.vb">
+      <DependentUpon>Frm_RpEibGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpEibGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_DescriptableTajhiz.Designer.vb">
+      <DependentUpon>Frm_DescriptableTajhiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Device\Frm_DescriptableTajhiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Other\SplashScreen1.designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Other\SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Anbar\Frm_Anbar.Designer.vb">
+      <DependentUpon>Frm_Anbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Anbar\Frm_Anbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Factor\Frm_FactorSubmit.Designer.vb">
+      <DependentUpon>Frm_FactorSubmit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Factor\Frm_FactorSubmit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Factor\Frm_FactorView.Designer.vb">
+      <DependentUpon>Frm_FactorView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Factor\Frm_FactorView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\Group\Frm_KalaGroup.Designer.vb">
+      <DependentUpon>Frm_KalaGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\Group\Frm_KalaGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\Group\Frm_KalaGroupAdd.Designer.vb">
+      <DependentUpon>Frm_KalaGroupAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\Group\Frm_KalaGroupAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\BaseForm\Frm_Sazande.Designer.vb">
+      <DependentUpon>Frm_Sazande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\BaseForm\Frm_Sazande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Anbar\Frm_AnbarVw.Designer.vb">
+      <DependentUpon>Frm_AnbarVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Anbar\Frm_AnbarVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\BaseForm\Frm_Kala.designer.vb">
+      <DependentUpon>Frm_Kala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\BaseForm\Frm_Kala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\BaseForm\Frm_Vahed.Designer.vb">
+      <DependentUpon>Frm_Vahed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Stg\Kala\BaseForm\Frm_Vahed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Other\ConvertDB.Designer.vb">
+      <DependentUpon>ConvertDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Other\ConvertDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_Taghvim.Designer.vb">
+      <DependentUpon>Frm_Taghvim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\TimeCard\Frm_Taghvim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Kala.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Kala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_Kala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkFormVw.Designer.vb">
+      <DependentUpon>Frm_WorkFormVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkFormVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_EibForm.Designer.vb">
+      <DependentUpon>Frm_WorkForm_EibForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\WorkForm\Frm_WorkForm_EibForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Frm\Other\Frm_About.Designer.vb">
+      <DependentUpon>Frm_About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Frm\Other\Frm_About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_CompareGroupEibForm.vb">
+      <DependentUpon>Rp_CompareGroupEibForm.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_sms.vb">
+      <DependentUpon>Rp_sms.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_FormNaghsPostDiagram.vb">
+      <DependentUpon>Rp_FormNaghsPostDiagram.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_FormNaghseibDiagram.vb">
+      <DependentUpon>Rp_FormNaghseibDiagram.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_FormNaghsVahedDiagram.vb">
+      <DependentUpon>Rp_FormNaghsVahedDiagram.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_FormNaghsDiagram.vb">
+      <DependentUpon>Rp_FormNaghsDiagram.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Anbar\Rp_FactorKharid.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_FactorKharid.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Anbar\Rp_KalaUse.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_KalaUse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Anbar\Rp_MojodiAnbar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_MojodiAnbar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_SummaryExtraWork.vb">
+      <DependentUpon>Rp_SummaryExtraWork.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_Ashkhas_EzafeKar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_Ashkhas_EzafeKar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Device\Rp_Rele.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_Rele.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_ExtraWork.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_ExtraWork.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\EibForm\Rp_Group_EibForm.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rp_Group_EibForm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpCompareGroupEibForm.Designer.vb">
+      <DependentUpon>Frm_RpCompareGroupEibForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpCompareGroupEibForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpGroupEibForm.Designer.vb">
+      <DependentUpon>Frm_RpGroupEibForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpGroupEibForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Hadese\Frm_Rp_HadeseVw.Designer.vb">
+      <DependentUpon>Frm_Rp_HadeseVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Hadese\Frm_Rp_HadeseVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Stg\Frm_RpKalaUse.Designer.vb">
+      <DependentUpon>Frm_RpKalaUse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Stg\Frm_RpKalaUse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Stg\Frm_RpMojodiAnbar.Designer.vb">
+      <DependentUpon>Frm_RpMojodiAnbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Stg\Frm_RpMojodiAnbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\suggestion\Frm_RpPishnahad.Designer.vb">
+      <DependentUpon>Frm_RpPishnahad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\suggestion\Frm_RpPishnahad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatGroup.Designer.vb">
+      <DependentUpon>Frm_RpNafarSatGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatGroupGraph.Designer.vb">
+      <DependentUpon>Frm_RpNafarSatGroupGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatGroupGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatProject.Designer.vb">
+      <DependentUpon>Frm_RpNafarSatProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatProjectGraph.Designer.vb">
+      <DependentUpon>Frm_RpNafarSatProjectGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatProjectGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpWorkForm.Designer.vb">
+      <DependentUpon>Frm_RpWorkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_RpWorkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_Rp_KholaseWorkForm.Designer.vb">
+      <DependentUpon>Frm_Rp_KholaseWorkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_Rp_KholaseWorkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_Rp_SaghfeKar.Designer.vb">
+      <DependentUpon>Frm_Rp_SaghfeKar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_Rp_SaghfeKar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_SummaryRpExtraWork.Designer.vb">
+      <DependentUpon>Frm_SummaryRpExtraWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_SummaryRpExtraWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpExtraWork.Designer.vb">
+      <DependentUpon>Frm_RpExtraWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\EibForm\Frm_RpExtraWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Frm_RpVw.Designer.vb">
+      <DependentUpon>Frm_RpVw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Frm_RpVw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\WrokForm\Rp_NafarSatProject.vb">
+      <DependentUpon>Rp_NafarSatProject.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\WrokForm\Rp_NafarSatGroup.vb">
+      <DependentUpon>Rp_NafarSatGroup.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\WrokForm\Rp_SaghfeKAr.vb">
+      <DependentUpon>Rp_SaghfeKAr.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Hadese.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Hadese.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Cr\WrokForm\Rp_SaghfeKar_Total.vb">
+      <DependentUpon>Rp_SaghfeKar_Total.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Rp\Cr\Hadese\Rp_Hadese.vb">
+      <DependentUpon>Rp_Hadese.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Lab.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Lab.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Lab_Tamir.Designer.vb">
+      <DependentUpon>Frm_Rp_Lab_Tamir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Lab_Tamir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Lab_TamirAlarm.Designer.vb">
+      <DependentUpon>Frm_Rp_Lab_TamirAlarm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Lab_TamirAlarm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\Rp\Cr\WrokForm\Rp_WorkFormGozareshHaftegi.vb">
+      <DependentUpon>Rp_WorkFormGozareshHaftegi.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Ds\Ds_Amozesh.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Amozesh.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_WorkForm_Kargozini.Designer.vb">
+      <DependentUpon>Frm_WorkForm_Kargozini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="App\Rp\Frm\WorkForm\Frm_WorkForm_Kargozini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App\Cls Setting PubFun\Control\KalaSelectManager.resx">
+      <DependentUpon>KalaSelectManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Cls Setting PubFun\Setting\Frm_Setting.resx">
+      <DependentUpon>Frm_Setting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_AddContactItems.resx">
+      <DependentUpon>Frm_Con_AddContactItems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_ContractItem.resx">
+      <DependentUpon>Frm_Con_ContractItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_GroupWeight.resx">
+      <DependentUpon>Frm_Con_GroupWeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_MonthReportConfirmPrice.resx">
+      <DependentUpon>Frm_Con_MonthReportConfirmPrice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_NavahiWeight.resx">
+      <DependentUpon>Frm_Con_NavahiWeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Non_MonthReportVw.resx">
+      <DependentUpon>Frm_Con_Non_MonthReportVw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_VahedSavedEzafeKar.resx">
+      <DependentUpon>Frm_Con_VahedSavedEzafeKar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_VahedWeight.resx">
+      <DependentUpon>Frm_Con_VahedWeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Zarib.resx">
+      <DependentUpon>Frm_Con_Zarib.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_MonthReport.resx">
+      <DependentUpon>Frm_Con_MonthReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_StatusStatementMazad.resx">
+      <DependentUpon>Frm_Con_StatusStatementMazad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Unit.resx">
+      <DependentUpon>Frm_Con_Unit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Convert.resx">
+      <DependentUpon>Frm_Con_Convert.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_StatusStatement.resx">
+      <DependentUpon>Frm_Con_StatusStatement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_AddStatusStatement.resx">
+      <DependentUpon>Frm_Con_AddStatusStatement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_AllStatusStatementVw.resx">
+      <DependentUpon>Frm_Con_AllStatusStatementVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_MonthReportVw.resx">
+      <DependentUpon>Frm_Con_MonthReportVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_StatusstatementItemVw.resx">
+      <DependentUpon>Frm_Con_StatusstatementItemVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DoreParticipatePresent.resx">
+      <DependentUpon>Frm_Edu_DoreParticipatePresent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_JobDore.resx">
+      <DependentUpon>Frm_Edu_JobDore.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_Evaluation.resx">
+      <DependentUpon>Frm_Edu_Evaluation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_EvaluationItem.resx">
+      <DependentUpon>Frm_Edu_EvaluationItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DoreParticipate.resx">
+      <DependentUpon>Frm_Edu_DoreParticipate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_Teacher.resx">
+      <DependentUpon>Frm_Edu_Teacher.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DoreJob.resx">
+      <DependentUpon>Frm_Edu_DoreJob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DoreHolding.resx">
+      <DependentUpon>Frm_Edu_DoreHolding.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DoreType.resx">
+      <DependentUpon>Frm_Edu_DoreType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DorePlace.resx">
+      <DependentUpon>Frm_Edu_DorePlace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_Dore.resx">
+      <DependentUpon>Frm_Edu_Dore.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Edu\Frm_Edu_DorePresenter.resx">
+      <DependentUpon>Frm_Edu_DorePresenter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Ashkhas\Frm_JonTitle.resx">
+      <DependentUpon>Frm_JonTitle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Ashkhas\Frm_Ashkhas.resx">
+      <DependentUpon>Frm_Ashkhas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Ashkhas\Frm_Pm_Company.resx">
+      <DependentUpon>Frm_Pm_Company.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Ashkhas\Frm_Sherkatha.resx">
+      <DependentUpon>Frm_Sherkatha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Ashkhas\Frm_Status.resx">
+      <DependentUpon>Frm_Status.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Ashkhas\Frm_UserAshkhas.resx">
+      <DependentUpon>Frm_UserAshkhas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_ContactItemsVw.resx">
+      <DependentUpon>Frm_Con_ContactItemsVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Contract.resx">
+      <DependentUpon>Frm_Con_Contract.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Item.resx">
+      <DependentUpon>Frm_Con_Item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_Source.resx">
+      <DependentUpon>Frm_Con_Source.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\DarkhasteKar\Frm_DarkhasteKar.resx">
+      <DependentUpon>Frm_DarkhasteKar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\DarkhasteKar\Frm_DarkhasteKarVw.resx">
+      <DependentUpon>Frm_DarkhasteKarVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\BaseForms\Frm_Vahed.resx">
+      <DependentUpon>Frm_Vahed.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_PmWithDevice.resx">
+      <DependentUpon>Frm_PmWithDevice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_PmTimeTableIMG.resx">
+      <DependentUpon>Frm_PmTimeTableIMG.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_ANSI.resx">
+      <DependentUpon>Frm_ANSI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_PmProgram.resx">
+      <DependentUpon>Frm_PmProgram.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_Template_Add.resx">
+      <DependentUpon>Frm_Template_Add.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_Template.resx">
+      <DependentUpon>Frm_Template.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_Cable.resx">
+      <DependentUpon>Frm_Cable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_TranseVoltaj.resx">
+      <DependentUpon>Frm_TranseVoltaj.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_Breaker.resx">
+      <DependentUpon>Frm_Breaker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_Sexioner.resx">
+      <DependentUpon>Frm_Sexioner.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_BarghGir.resx">
+      <DependentUpon>Frm_BarghGir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_TranseGhodrat.resx">
+      <DependentUpon>Frm_TranseGhodrat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Tajhizat\Frm_Rele.resx">
+      <DependentUpon>Frm_Rele.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_Attachment.resx">
+      <DependentUpon>Frm_Attachment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Eib Form\Frm_EibForm.resx">
+      <DependentUpon>Frm_EibForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Eib Form\Frm_EibFormVw.resx">
+      <DependentUpon>Frm_EibFormVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Frm_Main.resx">
+      <DependentUpon>Frm_Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_Hadese.resx">
+      <DependentUpon>Frm_Hadese.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Mahal.resx">
+      <DependentUpon>Frm_Lab_Rol_Mahal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_MasooleTamir.resx">
+      <DependentUpon>Frm_Lab_Rol_MasooleTamir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Master.resx">
+      <DependentUpon>Frm_Lab_Rol_Master.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Master_Vw.resx">
+      <DependentUpon>Frm_Lab_Rol_Master_Vw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tajhiz.resx">
+      <DependentUpon>Frm_Lab_Rol_Tajhiz.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_MahalSelect.resx">
+      <DependentUpon>Frm_MahalSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Pm_Lab_Rol_Tajhizat.resx">
+      <DependentUpon>Frm_Pm_Lab_Rol_Tajhizat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_TajhizSelect.resx">
+      <DependentUpon>Frm_TajhizSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Contract\Frm_Con_StatusStatementVw.resx">
+      <DependentUpon>Frm_Con_StatusStatementVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Dakal.resx">
+      <DependentUpon>Frm_Dakal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Khat_Import.resx">
+      <DependentUpon>Frm_Khat_Import.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line.resx">
+      <DependentUpon>Frm_Line.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_CableType.resx">
+      <DependentUpon>Frm_Line_CableType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_DakalCode.resx">
+      <DependentUpon>Frm_Line_DakalCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_DakalModel.resx">
+      <DependentUpon>Frm_Line_DakalModel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_DakalProvider.resx">
+      <DependentUpon>Frm_Line_DakalProvider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_DakalStructure.resx">
+      <DependentUpon>Frm_Line_DakalStructure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_Dakaltype.resx">
+      <DependentUpon>Frm_Line_Dakaltype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_Fibrtype.resx">
+      <DependentUpon>Frm_Line_Fibrtype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_Gardtype.resx">
+      <DependentUpon>Frm_Line_Gardtype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_GeoPosition.resx">
+      <DependentUpon>Frm_Line_GeoPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_HadiType.resx">
+      <DependentUpon>Frm_Line_HadiType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_MaghareChain.resx">
+      <DependentUpon>Frm_Line_MaghareChain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_MaghareProvider.resx">
+      <DependentUpon>Frm_Line_MaghareProvider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_Magharetype.resx">
+      <DependentUpon>Frm_Line_Magharetype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Line\Frm_Line_Voltage.resx">
+      <DependentUpon>Frm_Line_Voltage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_PostType.resx">
+      <DependentUpon>Frm_PostType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_SahtheVoltage.resx">
+      <DependentUpon>Frm_SahtheVoltage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Sms\Frm_SmsVw.resx">
+      <DependentUpon>Frm_SmsVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Eib Form\Frm_EibFormAttachment.resx">
+      <DependentUpon>Frm_EibFormAttachment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Eib Form\Frm_ImportantPercent.resx">
+      <DependentUpon>Frm_ImportantPercent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_DeviceSelectWithPost.resx">
+      <DependentUpon>Frm_DeviceSelectWithPost.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_DeviceSelect.resx">
+      <DependentUpon>Frm_DeviceSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_CancelCause.resx">
+      <DependentUpon>Frm_CancelCause.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_RecomendationSubject.resx">
+      <DependentUpon>Frm_RecomendationSubject.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_SubRecomendationSubject.resx">
+      <DependentUpon>Frm_SubRecomendationSubject.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_DeviceName.resx">
+      <DependentUpon>Frm_DeviceName.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_PostToGroup.resx">
+      <DependentUpon>Frm_PostToGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Status Statement\Items.resx">
+      <DependentUpon>Items.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\suggestion\Frm_Pishnahad.resx">
+      <DependentUpon>Frm_Pishnahad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\suggestion\Frm_PishnahadView.resx">
+      <DependentUpon>Frm_PishnahadView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\suggestion\Frm_Sender.resx">
+      <DependentUpon>Frm_Sender.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\TimeCard\Frm_EditTimeCardAdmin.resx">
+      <DependentUpon>Frm_EditTimeCardAdmin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\TimeCard\Frm_EditTimeCardUser.resx">
+      <DependentUpon>Frm_EditTimeCardUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\TimeCard\Frm_EditTimeCard.resx">
+      <DependentUpon>Frm_EditTimeCard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\TimeCard\Frm_Hzg_OpenFile.resx">
+      <DependentUpon>Frm_Hzg_OpenFile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\TimeCard\Frm_ShowWorkForm.resx">
+      <DependentUpon>Frm_ShowWorkForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkForm.resx">
+      <DependentUpon>Frm_WorkForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkForm_Edit.resx">
+      <DependentUpon>Frm_WorkForm_Edit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkSharh_WorkForm.resx">
+      <DependentUpon>Frm_WorkSharh_WorkForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_SelectPmProgram.resx">
+      <DependentUpon>Frm_SelectPmProgram.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkForm_Sharh.resx">
+      <DependentUpon>Frm_WorkForm_Sharh.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\BaseForms\Frm_CodeHazine.resx">
+      <DependentUpon>Frm_CodeHazine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Eib Form\Frm_EibType.resx">
+      <DependentUpon>Frm_EibType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkForm_Dis.resx">
+      <DependentUpon>Frm_WorkForm_Dis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\BaseForms\Frm_Distance.resx">
+      <DependentUpon>Frm_Distance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_Post_Model.resx">
+      <DependentUpon>Frm_Post_Model.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Eib Form\Frm_FixEibDis.resx">
+      <DependentUpon>Frm_FixEibDis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\BaseForms\Frm_GroupMember.resx">
+      <DependentUpon>Frm_GroupMember.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_Post_Tip.resx">
+      <DependentUpon>Frm_Post_Tip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_Post.resx">
+      <DependentUpon>Frm_Post.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\BaseForms\Frm_Group.resx">
+      <DependentUpon>Frm_Group.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Post\Frm_Post_Pishnahad.resx">
+      <DependentUpon>Frm_Post_Pishnahad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Other\Frm_Wait.resx">
+      <DependentUpon>Frm_Wait.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_HadeseVw.resx">
+      <DependentUpon>Frm_HadeseVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_Hadese_Amalkard.resx">
+      <DependentUpon>Frm_Hadese_Amalkard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_Device.resx">
+      <DependentUpon>Frm_Device.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_Device_Add.resx">
+      <DependentUpon>Frm_Device_Add.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_Hadese_ElateBoroz.resx">
+      <DependentUpon>Frm_Hadese_ElateBoroz.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_Hadese_KhesaratType.resx">
+      <DependentUpon>Frm_Hadese_KhesaratType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Hadese\Frm_Hadese_SharayetBoroz.resx">
+      <DependentUpon>Frm_Hadese_SharayetBoroz.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_ElateVorod.resx">
+      <DependentUpon>Frm_Lab_Rol_ElateVorod.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_SatheAhamniat.resx">
+      <DependentUpon>Frm_Lab_Rol_SatheAhamniat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tamir.resx">
+      <DependentUpon>Frm_Lab_Rol_Tamir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lab_Rol_Tamir_Vw.resx">
+      <DependentUpon>Frm_Lab_Rol_Tamir_Vw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Lab_Rol\Frm_Lal_Rol_GhatateMasrafi.resx">
+      <DependentUpon>Frm_Lal_Rol_GhatateMasrafi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_Device_Sazande.resx">
+      <DependentUpon>Frm_Device_Sazande.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Other\Image_Viewer.resx">
+      <DependentUpon>Image_Viewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_Formula.resx">
+      <DependentUpon>Frm_WorkForm_Formula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_FormulaShow.resx">
+      <DependentUpon>Frm_WorkForm_FormulaShow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\WorkFormFormul\Frm_WorkForm_Formul_Profile.resx">
+      <DependentUpon>Frm_WorkForm_Formul_Profile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\contract\Rp_MonthReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MonthReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\contract\Rp_MonthReport_Detail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MonthReport_Detail.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\contract\Rp_MonthReport_Detail_Group.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MonthReport_Detail_Group.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\contract\Rp_StatusStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_StatusStatement.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\contract\Rp_SummaryStatusstatementExtraWork.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_SummaryStatusstatementExtraWork.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Darkhast_Kar\DarkhasteKarVw.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DarkhasteKarVw.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Darkhast_Kar\DarkhasteKar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DarkhasteKar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Cable.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Cable.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Tajhiz.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Tajhiz.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Transe.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Transe.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Breaker.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Breaker.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Sexioner.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Sexioner.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Barghgir.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Barghgir.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_TranseGhodrat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_TranseGhodrat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiExtraworkF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiExtraworkF.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_EibFom.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_EibFom.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_HazineCodeExtraWork.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_HazineCodeExtraWork.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiExtraWork.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiExtraWork.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiExtraworkAzarakhsh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiExtraworkAzarakhsh.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiExtraworkFanavaran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiExtraworkFanavaran.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiExtraWorkLast.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiExtraWorkLast.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiExtraWorkmashrih.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiExtraWorkmashrih.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_MultiStatusExtraWorkmashrih.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MultiStatusExtraWorkmashrih.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_SummaryExtraWorkF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_SummaryExtraWorkF.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Lab_Rol\Lab.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lab.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Post\Rp_Post.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Post.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Lab_Rol\Rp_Lab_Rol_Search.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Lab_Rol_Search.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Hadese\Rp_Hadese_PrintAll.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Hadese_PrintAll.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Amo\Rp_Amo_Dore.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Amo_Dore.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Amo\Rp_Amo_PrintAll.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Amo_PrintAll.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Pm\Rp_PmCancleCause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_PmCancleCause.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Post\Rp_PostRecom.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_PostRecom.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Rp_Edu\Edu\Rp_Edu_Dore.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Edu_Dore.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Suggestion\Rp-Mosavabat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp-Mosavabat1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Suggestion\Rp_Pishnahad.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Pishnahad1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\WrokForm\Rp_KholaseWorkForm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_KholaseWorkForm.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Amo\Frm_Rp_Amo_View.resx">
+      <DependentUpon>Frm_Rp_Amo_View.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\contract\Frm_RpStatusStatementExtraWork.resx">
+      <DependentUpon>Frm_RpStatusStatementExtraWork.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\contract\Frm_Rp_MonthReport.resx">
+      <DependentUpon>Frm_Rp_MonthReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\contract\Frm_Rp_MonthReportDetail.resx">
+      <DependentUpon>Frm_Rp_MonthReportDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\contract\Frm_Rp_StatusStatement.resx">
+      <DependentUpon>Frm_Rp_StatusStatement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\contract\Frm_SummaryRpStatusStatementExtraWork.resx">
+      <DependentUpon>Frm_SummaryRpStatusStatementExtraWork.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\DarkhasteKar\Frm_RpDarkhasteKar.resx">
+      <DependentUpon>Frm_RpDarkhasteKar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Device\Frm_RpDevice.resx">
+      <DependentUpon>Frm_RpDevice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Education\Frm_Rp_ٍEvaluationVw.resx">
+      <DependentUpon>Frm_Rp_ٍEvaluationVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpEibImportantGraph.resx">
+      <DependentUpon>Frm_RpEibImportantGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpIndex.resx">
+      <DependentUpon>Frm_RpIndex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpEibForm.resx">
+      <DependentUpon>Frm_RpEibForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Education\Frm_Rp_DoreVw.resx">
+      <DependentUpon>Frm_Rp_DoreVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Tamirat.resx">
+      <DependentUpon>Frm_Rp_Tamirat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\PM\Frm_RpPmMonth.resx">
+      <DependentUpon>Frm_RpPmMonth.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\PM\Frm_RpPmCancle.resx">
+      <DependentUpon>Frm_RpPmCancle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\PM\Frm_RpPostPm.resx">
+      <DependentUpon>Frm_RpPostPm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\PM\Frm_RpPostPMGraph.resx">
+      <DependentUpon>Frm_RpPostPMGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpRecomendation.resx">
+      <DependentUpon>Frm_RpRecomendation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpEibGraph.resx">
+      <DependentUpon>Frm_RpEibGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Device\Frm_DescriptableTajhiz.resx">
+      <DependentUpon>Frm_DescriptableTajhiz.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Other\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Anbar\Frm_Anbar.resx">
+      <DependentUpon>Frm_Anbar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Factor\Frm_FactorSubmit.resx">
+      <DependentUpon>Frm_FactorSubmit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Factor\Frm_FactorView.resx">
+      <DependentUpon>Frm_FactorView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Kala\Group\Frm_KalaGroup.resx">
+      <DependentUpon>Frm_KalaGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Kala\Group\Frm_KalaGroupAdd.resx">
+      <DependentUpon>Frm_KalaGroupAdd.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Kala\BaseForm\Frm_Sazande.resx">
+      <DependentUpon>Frm_Sazande.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Anbar\Frm_AnbarVw.resx">
+      <DependentUpon>Frm_AnbarVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Kala\BaseForm\Frm_Kala.resx">
+      <DependentUpon>Frm_Kala.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Stg\Kala\BaseForm\Frm_Vahed.resx">
+      <DependentUpon>Frm_Vahed.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Other\ConvertDB.resx">
+      <DependentUpon>ConvertDB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\TimeCard\Frm_Taghvim.resx">
+      <DependentUpon>Frm_Taghvim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkForm_Kala.resx">
+      <DependentUpon>Frm_WorkForm_Kala.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkFormVw.resx">
+      <DependentUpon>Frm_WorkFormVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\WorkForm\Frm_WorkForm_EibForm.resx">
+      <DependentUpon>Frm_WorkForm_EibForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Frm\Other\Frm_About.resx">
+      <DependentUpon>Frm_About.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_CompareGroupEibForm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_CompareGroupEibForm.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_sms.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_sms.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_FormNaghsPostDiagram.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_FormNaghsPostDiagram.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_FormNaghseibDiagram.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_FormNaghseibDiagram.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_FormNaghsVahedDiagram.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_FormNaghsVahedDiagram.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_FormNaghsDiagram.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_FormNaghsDiagram.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Anbar\Rp_FactorKharid.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_FactorKharid.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Anbar\Rp_KalaUse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_KalaUse.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Anbar\Rp_MojodiAnbar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_MojodiAnbar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_SummaryExtraWork.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_SummaryExtraWork.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_Ashkhas_EzafeKar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Ashkhas_EzafeKar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Device\Rp_Rele.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Rele.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_ExtraWork.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_ExtraWork.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\EibForm\Rp_Group_EibForm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Group_EibForm.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpCompareGroupEibForm.resx">
+      <DependentUpon>Frm_RpCompareGroupEibForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpGroupEibForm.resx">
+      <DependentUpon>Frm_RpGroupEibForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Hadese\Frm_Rp_HadeseVw.resx">
+      <DependentUpon>Frm_Rp_HadeseVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Stg\Frm_RpKalaUse.resx">
+      <DependentUpon>Frm_RpKalaUse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Stg\Frm_RpMojodiAnbar.resx">
+      <DependentUpon>Frm_RpMojodiAnbar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\suggestion\Frm_RpPishnahad.resx">
+      <DependentUpon>Frm_RpPishnahad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatGroup.resx">
+      <DependentUpon>Frm_RpNafarSatGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatGroupGraph.resx">
+      <DependentUpon>Frm_RpNafarSatGroupGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatProject.resx">
+      <DependentUpon>Frm_RpNafarSatProject.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_RpNafarSatProjectGraph.resx">
+      <DependentUpon>Frm_RpNafarSatProjectGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_RpWorkForm.resx">
+      <DependentUpon>Frm_RpWorkForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_Rp_KholaseWorkForm.resx">
+      <DependentUpon>Frm_Rp_KholaseWorkForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_Rp_SaghfeKar.resx">
+      <DependentUpon>Frm_Rp_SaghfeKar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_SummaryRpExtraWork.resx">
+      <DependentUpon>Frm_SummaryRpExtraWork.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\EibForm\Frm_RpExtraWork.resx">
+      <DependentUpon>Frm_RpExtraWork.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Frm_RpVw.resx">
+      <DependentUpon>Frm_RpVw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\WrokForm\Rp_NafarSatProject.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_NafarSatProject.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\WrokForm\Rp_NafarSatGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_NafarSatGroup.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\WrokForm\Rp_SaghfeKAr.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_SaghfeKAr.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\WrokForm\Rp_SaghfeKar_Total.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_SaghfeKar_Total.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\Hadese\Rp_Hadese.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_Hadese.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Lab_Tamir.resx">
+      <DependentUpon>Frm_Rp_Lab_Tamir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\Lab_Rol\Frm_Rp_Lab_TamirAlarm.resx">
+      <DependentUpon>Frm_Rp_Lab_TamirAlarm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Cr\WrokForm\Rp_WorkFormGozareshHaftegi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rp_WorkFormGozareshHaftegi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Rp\Frm\WorkForm\Frm_WorkForm_Kargozini.resx">
+      <DependentUpon>Frm_WorkForm_Kargozini.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.ConvertDB.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_About.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Anbar.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_AnbarVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_ANSI.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Ashkhas.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Attachment.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_BarghGir.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Breaker.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Cable.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_CancelCause.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_CodeHazine.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_AddContactItems.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_AddStatusStatement.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_AllStatusStatementVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_ContactItemsVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Contract.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_ContractItem.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Convert.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_GroupWeight.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Item.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_MonthReport.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_MonthReportConfirmPrice.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_MonthReportVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_NavahiWeight.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Non_MonthReportVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Source.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_StatusStatement.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_StatusstatementItemVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_StatusStatementMazad.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_StatusStatementVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Unit.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_VahedSavedEzafeKar.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_VahedWeight.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Con_Zarib.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Dakal.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_DarkhasteKar.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_DarkhasteKarVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_DescriptableTajhiz.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Device.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_DeviceName.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_DeviceSelect.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_DeviceSelectWithPost.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Device_add.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Device_Sazande.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Distance.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EditTimeCard.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EditTimeCardAdmin.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EditTimeCardUser.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_Dore.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DoreHolding.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DoreJob.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DoreParticipate.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DoreParticipatePresent.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DorePlace.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DorePresenter.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_DoreType.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_Evaluation.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_EvaluationItem.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_JobDore.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Edu_Teacher.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EibForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EibFormAttachment.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EibFormVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_EibType.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_FactorSubmit.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_FactorView.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_FixEibDis.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Group.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_GroupMember.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Hadese.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_HadeseVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Hadese_Amalkard.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Hadese_ElateBoroz.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Hadese_KhesaratType.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Hadese_SharayetBoroz.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Hzg_OpenFile.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_ImportantPercent.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_JobTitle.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Kala.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_KalaGroup.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_KalaGroupAdd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Khat_Import.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_ElateVorod.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_Mahal.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_MasooleTamir.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_Master.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_Master_Vw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_SatheAhamniat.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_Tajhiz.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_Tamir.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lab_Rol_Tamir_Vw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Lal_Rol_GhatateMasrafi.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_CableType.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_DakalCode.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_DakalModel.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_DakalProvider.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_DakalStructure.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_Dakaltype.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_Fibrtype.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_Gardtype.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_GeoPosition.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_HadiType.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_MaghareChain.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_MaghareProvider.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_Magharetype.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Line_Voltage.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_MahalSelect.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Main.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Pishnahad.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_PishnahadView.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_PmProgram.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_PmTimeTableIMG.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_PmWithDevice.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Pm_Company.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Pm_Lab_Rol_Tajhizat.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Post.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_PostToGroup.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Posttype.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Post_Model.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Post_Pishnahad.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Post_Tip.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RecomendationSubject.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rele.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpCompareGroupEibForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpDarkhasteKar.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpDevice.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpEibForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpEibGraph.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpEibImportantGraph.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpExtraWork.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpGeoupEibForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpIndex.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpKalaUse.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpMojodiAnbar.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpNafarSatGroup.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpNafarSatGroupGraph.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpNafarSatProject.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpNafarSatProjectGraph.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpPishnahad.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpPmCancle.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpPmMonth.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpPostPm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpPostPMGraph.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpRecomendation.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpStatusStatementExtraWork.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_RpWorkForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_Amo_View.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_DoreVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_HadeseVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_KholaseWorkForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_Lab_Tamir.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_Lab_TamirAlarm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_MonthReport.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_MonthReportDetail.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_SaghfeKar.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_StatusStatement.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_Tamirat.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Rp_ٍEvaluationVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_SatheVoltage.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Sazande.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_SelectPmProgram.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Sender.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_setting.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Sexioner.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Sherkatha.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_ShowWorkForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_SmsVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Status.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_SubRecomendationSubject.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_SummaryRpExtraWork.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_SummaryRpStatusStatementExtraWork.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Taghvim.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_TajhizSelect.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Template.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Template_add.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_TranseGhodrat.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_TranseVoltaj.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_UserAshkhas.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Vahed.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_VahedV.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_Wait.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkFormVw.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_Dis.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_Edit.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_EibForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_Formula.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_FormulaShow.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_Formul_Profile.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_Kala.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_kargozini.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Frm_WorkForm_Sharh.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Image_Viewer.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Items.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.KalaSelectManager.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Pm_WorkSharh_WorkForm.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.Resources.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Nama_PM.SplashScreen1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="App\Ds\Ds_Ashkhas.xsc">
+      <DependentUpon>Ds_Ashkhas.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Ashkhas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Ashkhas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App\Ds\Ds_Ashkhas.xss">
+      <DependentUpon>Ds_Ashkhas.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TXT-Files.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_Configuer.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_MotorsInfo.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_FixMotors.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backpanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGrndMainMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureBox1e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundImage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\Ds\Ds_Kala.xsc">
+      <DependentUpon>Ds_Kala.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Kala.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Kala.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App\Ds\Ds_Kala.xss">
+      <DependentUpon>Ds_Kala.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_TimeCard.xsc">
+      <DependentUpon>Ds_TimeCard.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_TimeCard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_TimeCard.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App\Ds\Ds_TimeCard.xss">
+      <DependentUpon>Ds_TimeCard.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Organizational Unit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storehouse_write_128_hot1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azarakhsh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\Db_Script\Pm_TableScript_Ali_89-11-03.sql" />
+    <None Include="App\Db_Script\Pm_TableScript.sql" />
+    <None Include="App\Db_Script\Pm_TableScript_Ali_89_11_02.sql" />
+    <None Include="App\Db_Script\Pm_TableScript_Iman_18_11_03.sql" />
+    <None Include="Resources\unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azarakhsh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLOSED_FOLDER_GREEN1.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLOSED_FOLDER_LIGHT_GREY1.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\Db_Script\Iman-12-11-89\Pm_Taghvim.sql" />
+    <None Include="App\Db_Script\Iman-12-11-89\Rp_EzafeKar.sql" />
+    <None Include="App\Db_Script\InsertSetting.sql" />
+    <None Include="App\Db_Script\Pm_TableScript_Ali_89_11_03-1.sql" />
+    <None Include="App\Db_Script\WxtraWork.sql" />
+    <None Include="App\Ds\Ds_Security.xsc">
+      <DependentUpon>Ds_Security.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Security.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Security.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App\Ds\Ds_Security.xss">
+      <DependentUpon>Ds_Security.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\CLOSED_FOLDER_YELLOW1.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\Ds\Ds_Con.xsc">
+      <DependentUpon>Ds_Con.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Con.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Con.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Con.xss">
+      <DependentUpon>Ds_Con.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Edu.xsc">
+      <DependentUpon>Ds_Edu.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Edu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Edu.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App\Ds\Ds_Edu.xss">
+      <DependentUpon>Ds_Edu.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Line.xsc">
+      <DependentUpon>Ds_Line.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Line.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Line1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Line.xss">
+      <DependentUpon>Ds_Line.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Pm.xsc">
+      <DependentUpon>Ds_Pm.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Pm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Pm1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Pm.xss">
+      <DependentUpon>Ds_Pm.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Rp.xsc">
+      <DependentUpon>Ds_Rp.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Rp.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Rp1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Rp.xss">
+      <DependentUpon>Ds_Rp.xsd</DependentUpon>
+    </None>
+    <None Include="obj\x86\Debug\Nama_PM.vbproj.GenerateResource.Cache" />
+    <None Include="obj\x86\Debug\Nama_PM.vbproj.ResolveComReference.cache" />
+    <None Include="obj\x86\Debug\ResolveAssemblyReference.cache" />
+    <None Include="Resources\advancedsettings.png" />
+    <None Include="Resources\button_cancel.png" />
+    <None Include="Resources\button_cancel1.png" />
+    <Content Include="589e927ab948d_thumb900_AW2_icon.ico" />
+    <None Include="Resources\absent-blue-icon.png" />
+    <Content Include="obj\x86\Debug\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="obj\x86\Debug\Nama_PM.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\Nama_PM.xml" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.DataSet1.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Amozesh.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Ashkhas.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Con.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Con1.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Edu.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Hadese.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Kala.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Lab.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Line1.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Pm.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Pm1.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Rp.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Rp1.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_Security.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Ds_TimeCard.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Ds.Pm_Lab_Rol_SharheKar.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Amo.Rp_Amo_Dore.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Amo.Rp_Amo_PrintAll.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Anbar.Rp_FactorKharid.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Anbar.Rp_KalaUse.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Anbar.Rp_MojodiAnbar.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.contract.Rp_MonthReport.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.contract.Rp_MonthReport_Detail.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.contract.Rp_MonthReport_Detail_Group.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.contract.Rp_StatusStatement.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.contract.Rp_SummaryStatusstatementExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.CrystalReport1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Darkhast_Kar.DarkhasteKar.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Darkhast_Kar.DarkhasteKarVw.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Barghgir.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Breaker.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Cable.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Rele.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Sexioner.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Tajhiz.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Teranse.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_Transe.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Device.Rp_TranseGhodrat.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Copy of Rp_EibFom.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Copy of Rp_ExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Copy of Rp_MultiExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.CrystalReport1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.MultiExtraWorkFanavaran.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_Ashkhas_EzafeKar.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_CompareGroupEibForm.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_EibFom.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_EibFom1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_ExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_ExtraWork_F.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_FormNaghsDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_FormNaghseibDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_FormNaghsPostDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_FormNaghsVahedDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_Group_EibForm.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_HazineCodeExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraworkAzarakhsh.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraworkF.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraworkFanavaran.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraWorkLast.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraWorkmashrih.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiExtraWorkMashroh.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_MultiStatusExtraWorkmashrih.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_PostSms.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_sms.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_SummaryExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_SummaryExtraWorkF.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_SummaryExtraWorkFanavaran.rpt.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.Rp_SummaryExtraWorkFanavaran.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.EibForm.test.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Hadese.Rp_Hadese.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Hadese.Rp_Hadese_PrintAll.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Hadese.Rp_PostRecom.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Lab_Rol.Lab.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Lab_Rol.Rp_Lab_Rol_Search.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Pm.Rp_PmCancleCause.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Post.Rp_Cable.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Post.Rp_Post.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Post.Rp_PostRecom.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Post.Rp_PostSms.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Ashkhas_EzafeKar.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_CompareGroupEibForm.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Edu.Edu.Rp_Edu_Dore.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Edu.Edu.Rp_Edu_Dore1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Edu.Rp_Edu_Dore.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Edu.Rp_Edu_Dore1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_EibFom.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_EibFomP.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_ExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_FactorKharid.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_FactorKharid1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_FormNaghsDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_FormNaghseibDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_FormNaghsPostDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_FormNaghsVahedDiagram.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Group_EibForm.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Hadese.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_KalaUse.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_MojodiAnbar.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_NafarSatGroup.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_NafarSatProject.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_Post.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_SaghfeKAr.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_SaghfeKar_Total.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Rp_SummaryExtraWork.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Suggestion.Rp-Mosavabat.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Suggestion.Rp-Mosavabat1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Suggestion.Rp_Pishnahad.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.Suggestion.Rp_Pishnahad1.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.WrokForm.Rp_KholaseWorkForm.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.WrokForm.Rp_NafarSatGroup.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.WrokForm.Rp_NafarSatProject.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.WrokForm.Rp_SaghfeKAr.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.WrokForm.Rp_SaghfeKar_Total.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Cr.WrokForm.Rp_WorkFormGozareshHaftegi.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Frm.contract.Ds_Con1.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\App.Rp.Frm.contract.Ds_Con2.Designer.vb.dll" />
+    <Content Include="obj\x86\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Resources\CLOSED_FOLDER_GREEN.ICO" />
+    <Content Include="Resources\CLOSED_FOLDER_LIGHT_GREY.ICO" />
+    <Content Include="Resources\CLOSED_FOLDER_YELLOW.ICO" />
+    <None Include="Resources\WhatsApp Image 2022-07-17 at 2.50.01 PM.jpeg" />
+    <None Include="Resources\Excel-icon.png.jpeg" />
+    <None Include="Resources\minus-8-16.ico" />
+    <None Include="Resources\plus-4-16.ico" />
+    <None Include="Resources\minus-2-242.ico" />
+    <None Include="Resources\plus-8-242.ico" />
+    <None Include="Resources\plus-8-241.ico" />
+    <None Include="Resources\minus-2-241.ico" />
+    <None Include="Resources\plus-8-24.ico" />
+    <None Include="Resources\minus-2-24.ico" />
+    <None Include="Resources\evaluations-icon %281%29.png" />
+    <None Include="Resources\Users-Checked-User-icon %282%29.png" />
+    <None Include="Resources\Users-Checked-User-icon %281%29.png" />
+    <None Include="Resources\Users-Checked-User-icon.png" />
+    <None Include="Resources\sms.jpg" />
+    <None Include="Resources\NotConnect.jpg" />
+    <None Include="Resources\WeakSignal.jpg" />
+    <None Include="Resources\NoSignal.jpg" />
+    <None Include="Resources\GoodSignal.jpg" />
+    <None Include="Resources\FullSignal.jpg" />
+    <None Include="Resources\stock_task_assigned_to1.png" />
+    <None Include="Resources\stock_task_assigned_to.png" />
+    <None Include="Resources\write.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\file_copy.png" />
+    <None Include="Resources\delete_01.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="App\Db_Script\Amozesh.sql" />
+    <None Include="App\Db_Script\Lab_Rol.sql" />
+    <None Include="App\Ds\Ds_Lab.xsc">
+      <DependentUpon>Ds_Lab.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Lab.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Lab.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Lab.xss">
+      <DependentUpon>Ds_Lab.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Amozesh.xsc">
+      <DependentUpon>Ds_Amozesh.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Amozesh.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Amozesh.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Amozesh.xss">
+      <DependentUpon>Ds_Amozesh.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\refresh.png" />
+    <None Include="App\Db_Script\Hadese.sql" />
+    <None Include="App\Db_Script\NewPostTable.sql" />
+    <None Include="App\Ds\Ds_Hadese.xsc">
+      <DependentUpon>Ds_Hadese.xsd</DependentUpon>
+    </None>
+    <None Include="App\Ds\Ds_Hadese.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Hadese.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App\Ds\Ds_Hadese.xss">
+      <DependentUpon>Ds_Hadese.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Picture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App\Cls Setting PubFun\SMS\" />
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\x86\Debug\" />
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

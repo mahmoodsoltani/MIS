@@ -1,0 +1,1137 @@
+<?xml version="1.0" standalone="yes"?>
+<Ds_Con xmlns="http://tempuri.org/Ds_Con.xsd">
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1001</itemcode>
+    <ItemTitle>سرویس دوره ای تابلوی LVAC </ItemTitle>
+    <allamount>160</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>160</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1002</itemcode>
+    <ItemTitle>سرویس دوره ای تابلوی LVDC </ItemTitle>
+    <allamount>160</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>160</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1003</itemcode>
+    <ItemTitle>سرویس دوره ای باتری 110 ولت</ItemTitle>
+    <allamount>188</allamount>
+    <DoAmount>77</DoAmount>
+    <diff>111</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1004</itemcode>
+    <ItemTitle>سرویس دوره ای باتری 48 ولت</ItemTitle>
+    <allamount>26</allamount>
+    <DoAmount>8</DoAmount>
+    <diff>18</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1005</itemcode>
+    <ItemTitle>سرویس دوره ای شارژر 48 و 110 ولت</ItemTitle>
+    <allamount>253</allamount>
+    <DoAmount>118</DoAmount>
+    <diff>135</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1006</itemcode>
+    <ItemTitle>سرویس دوره ای اینورتر</ItemTitle>
+    <allamount>33</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>33</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1007</itemcode>
+    <ItemTitle>بازدید و سرویس عمومی ثبات خطا مستقل</ItemTitle>
+    <allamount>5</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>5</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1008</itemcode>
+    <ItemTitle>بازدید و سرویس عمومی ثبات وقایع مستقل</ItemTitle>
+    <allamount>11</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>11</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P1009</itemcode>
+    <ItemTitle>سرویس و نظافت دوره ای تابلوهای بیرونی (محوطه) کل پست</ItemTitle>
+    <allamount>160</allamount>
+    <DoAmount>23</DoAmount>
+    <diff>137</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2001</itemcode>
+    <ItemTitle>بازدید دوره ای خطوط 400 كيلوولت</ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2002</itemcode>
+    <ItemTitle>بازدید دوره ای باسکوپلر  400 كيلوولت </ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2003</itemcode>
+    <ItemTitle>بازدید دوره ای خطوط  132 كيلوولت </ItemTitle>
+    <allamount>34</allamount>
+    <DoAmount>28</DoAmount>
+    <diff>6</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2004</itemcode>
+    <ItemTitle>بازدید دوره ای باسکوپلر  132 كيلوولت </ItemTitle>
+    <allamount>2</allamount>
+    <DoAmount>3</DoAmount>
+    <diff>-1</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2005</itemcode>
+    <ItemTitle>بازدید دوره ای و فانکشن تست ترانسفورماتور قدرت 400 کیلوولت</ItemTitle>
+    <allamount>2</allamount>
+    <DoAmount>6</DoAmount>
+    <diff>-4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2006</itemcode>
+    <ItemTitle>بازدید دوره ای و فانکشن تست ترانس دو سیم پیچ 132 کیلوولت</ItemTitle>
+    <allamount>22</allamount>
+    <DoAmount>25</DoAmount>
+    <diff>-3</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2007</itemcode>
+    <ItemTitle>فانكشن تست اساسی ترانس  230 و 400 كيلوولت </ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2008</itemcode>
+    <ItemTitle>فانكشن تست اساسی ترانس سه سيم پيچه 132 كيلوولت</ItemTitle>
+    <allamount>2</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2009</itemcode>
+    <ItemTitle>فانكشن تست اساسی ترانس دو سیم پیچ 63 و 132 كيلوولت </ItemTitle>
+    <allamount>29</allamount>
+    <DoAmount>16</DoAmount>
+    <diff>13</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2010</itemcode>
+    <ItemTitle>فانكشن تست اساسی خطوط 400 كيلوولت </ItemTitle>
+    <allamount>6</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>6</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2011</itemcode>
+    <ItemTitle>فانكشن تست اساسی راكتور 400 كيلوولت </ItemTitle>
+    <allamount>3</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>3</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2012</itemcode>
+    <ItemTitle>فانكشن تست اساسی راكتور 20 كيلوولت </ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2013</itemcode>
+    <ItemTitle>فانكشن تست اساسی خطوط 63 و 132 كيلوولت </ItemTitle>
+    <allamount>79</allamount>
+    <DoAmount>16</DoAmount>
+    <diff>63</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2014</itemcode>
+    <ItemTitle>فانكشن تست اساسی خطوط / باسکوپلر / خازن 20 كيلوولت </ItemTitle>
+    <allamount>158</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>149</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2015</itemcode>
+    <ItemTitle>فانكشن تست اساسی سیستم 400 ولت AC ( چنج اور 400 )</ItemTitle>
+    <allamount>15</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>15</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2016</itemcode>
+    <ItemTitle>فانكشن تست اساسی باسکوپلر 63 و 132  كيلوولت </ItemTitle>
+    <allamount>10</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>9</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2017</itemcode>
+    <ItemTitle>فانكشن تست ترانس  230 و 400 كيلوولت </ItemTitle>
+    <allamount>25</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>16</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2018</itemcode>
+    <ItemTitle>فانكشن تست ترانس سه سيم پيچه 132 كيلوولت</ItemTitle>
+    <allamount>2</allamount>
+    <DoAmount>10</DoAmount>
+    <diff>-8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2019</itemcode>
+    <ItemTitle>فانكشن تست ترانس سه سيم پيچه 132 كيلوولت به همراه ارسال سیگنال به مرکز کنترل</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2020</itemcode>
+    <ItemTitle>فانكشن تست ترانس دو سیم پیچ 63 و 132 كيلوولت </ItemTitle>
+    <allamount>80</allamount>
+    <DoAmount>79</DoAmount>
+    <diff>1</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2021</itemcode>
+    <ItemTitle>فانكشن تست ترانس دو سیم پیچ 63  و 132 كيلوولت به همراه ارسال سیکنال به مرکز کنترل</ItemTitle>
+    <allamount>120</allamount>
+    <DoAmount>12</DoAmount>
+    <diff>108</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2022</itemcode>
+    <ItemTitle>فانكشن تست راكتور 400 كيلوولت </ItemTitle>
+    <allamount>13</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>13</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2023</itemcode>
+    <ItemTitle>فانكشن تست راكتور 20 كيلوولت </ItemTitle>
+    <allamount>17</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>13</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2024</itemcode>
+    <ItemTitle>فانكشن تست خطوط 230 و 400 كيلوولت </ItemTitle>
+    <allamount>67</allamount>
+    <DoAmount>19</DoAmount>
+    <diff>48</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2025</itemcode>
+    <ItemTitle>فانكشن تست خطوط  63 و 132 كيلوولت </ItemTitle>
+    <allamount>185</allamount>
+    <DoAmount>161</DoAmount>
+    <diff>24</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2026</itemcode>
+    <ItemTitle>فانكشن تست خطوط  63 و 132 كيلوولت  به همراه ارسال سیگنال به مرکز کنترل</ItemTitle>
+    <allamount>194</allamount>
+    <DoAmount>22</DoAmount>
+    <diff>172</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2027</itemcode>
+    <ItemTitle>فانكشن تست باسکوپلر 63 و 132  كيلوولت </ItemTitle>
+    <allamount>15</allamount>
+    <DoAmount>15</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2028</itemcode>
+    <ItemTitle>فانكشن تست باسکوپلر 63  و 132 كيلوولت به همراه ارسال سیگنال به مرکز کنترل</ItemTitle>
+    <allamount>15</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>15</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2029</itemcode>
+    <ItemTitle>فانكشن تست خطوط / باسکوپلر / خازن 20 كيلوولت </ItemTitle>
+    <allamount>423</allamount>
+    <DoAmount>835</DoAmount>
+    <diff>-412</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2030</itemcode>
+    <ItemTitle>فانكشن تست خطوط / باسکوپلر / خازن 20 كيلوولت   به همراه ارسال سیگنال به مرکز کنترل</ItemTitle>
+    <allamount>773</allamount>
+    <DoAmount>25</DoAmount>
+    <diff>748</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2031</itemcode>
+    <ItemTitle>فانكشن تست حفاظت دیفرانسیل باسبار  230 و 400  کیلوولت</ItemTitle>
+    <allamount>16</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>16</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2032</itemcode>
+    <ItemTitle>فانكشن تست حفاظت دیفرانسیل باسبار 63 و 132 کیلوولت</ItemTitle>
+    <allamount>56</allamount>
+    <DoAmount>5</DoAmount>
+    <diff>51</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2033</itemcode>
+    <ItemTitle>فانکشن تست حفاظت  عیب کلید (CBF) پست 230 و 400 کیلوولت </ItemTitle>
+    <allamount>90</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>90</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2034</itemcode>
+    <ItemTitle>فانکشن تست حفاظت  عیب کلید (CBF) پست 63 و 132 کیلوولت </ItemTitle>
+    <allamount>85</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>85</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2035</itemcode>
+    <ItemTitle>فانکشن تست حفاظت  Short Zone  پست 230 و 400 کیلوولت </ItemTitle>
+    <allamount>60</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>60</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2036</itemcode>
+    <ItemTitle>فانکشن تست حفاظت  Short Zone پست 63 و 132 کیلوولت </ItemTitle>
+    <allamount>17</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>17</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2037</itemcode>
+    <ItemTitle>فانکشن تست حفاظت نامتعادلی پل های کلید (PD) پست 63 و 132 کیلوولت</ItemTitle>
+    <allamount>6</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>6</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2038</itemcode>
+    <ItemTitle>فانکشن تست حفاظت نامتعادلی پل های کلید (PD) پست 230 و 400 کیلوولت</ItemTitle>
+    <allamount>90</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>89</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2039</itemcode>
+    <ItemTitle>فانكشن تست سیستم 400 ولت AC ( چنج اور 400 )</ItemTitle>
+    <allamount>125</allamount>
+    <DoAmount>47</DoAmount>
+    <diff>78</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2040</itemcode>
+    <ItemTitle>فانكشن تست سیستم 110 ولت DC ( چنج اور اتومات )</ItemTitle>
+    <allamount>10</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>10</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2041</itemcode>
+    <ItemTitle>فانکشن تست مدار رله سنکرون چک ( و سنکرون دستی) سمت 230 و  400 کیلوولت (به ازای هر فیدر)</ItemTitle>
+    <allamount>32</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>32</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2042</itemcode>
+    <ItemTitle>فانکشن تست مدار رله سنکرون چک ( و سنکرون دستی) سمت 63 و  132 کیلوولت (به ازای هر فیدر)</ItemTitle>
+    <allamount>157</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>157</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2043</itemcode>
+    <ItemTitle>فانکشن تست حفاظت تله پروتکشن خط 230 و 400 کیلوولت</ItemTitle>
+    <allamount>31</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>31</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2044</itemcode>
+    <ItemTitle>فانکشن تست حفاظت تله پروتکشن خط 132 کیلوولت </ItemTitle>
+    <allamount>1</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>1</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2045</itemcode>
+    <ItemTitle>فانکشن تست حفاظت ویژه </ItemTitle>
+    <allamount>77</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>77</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2046</itemcode>
+    <ItemTitle>تست نقطه به نقطه پست کنترل راه دور (ارسال سیگنال و فرامین کل پست)</ItemTitle>
+    <allamount>71</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>69</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2047</itemcode>
+    <ItemTitle>آزمون اساسی رله ديستانس نیومریکال خط  230 و 400 کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>70</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>61</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2048</itemcode>
+    <ItemTitle>آزمون اساسی رله ديستانس استاتیک خط  230 و 400 کیلوولت </ItemTitle>
+    <allamount>9</allamount>
+    <DoAmount>3</DoAmount>
+    <diff>6</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2049</itemcode>
+    <ItemTitle>آزمون اساسی رله ديستانس نیومریکال خط 63 و 132 کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>280</allamount>
+    <DoAmount>63</DoAmount>
+    <diff>217</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2050</itemcode>
+    <ItemTitle>آزمون اساسی رله ديستانس استاتیک (نوع اول) خط 63 و 132 کیلوولت</ItemTitle>
+    <allamount>64</allamount>
+    <DoAmount>20</DoAmount>
+    <diff>44</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2051</itemcode>
+    <ItemTitle>آزمون اساسی رله ديستانس استاتیک (نوع دوم) خط 63 و 132 کیلوولت</ItemTitle>
+    <allamount>34</allamount>
+    <DoAmount>6</DoAmount>
+    <diff>28</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2052</itemcode>
+    <ItemTitle>آزمون رله فاصله ياب مستقل (به ازای کلیه خطوط فوق توزیع و انتقال)</ItemTitle>
+    <allamount>10</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>10</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2053</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل نیومریکال سه سیم پیچ 230 و 400 کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>47</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>46</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2054</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل استاتیک سه سیم پیچ 230 و 400 کیلوولت </ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2055</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل نیومریکال سه سیم پیچ  132  کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2056</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل استاتیک (نوع اول) سه سیم پیچ  132  کیلوولت </ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>7</DoAmount>
+    <diff>-3</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2057</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل استاتیک (نوع دوم) سه سیم پیچ  132  کیلوولت </ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>-2</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2058</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل نیومریکال دو سیم پیچ  63 و 132  کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>170</allamount>
+    <DoAmount>22</DoAmount>
+    <diff>148</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2059</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل استاتیک (نوع اول) دو سیم پیچ  63 و 132  کیلوولت</ItemTitle>
+    <allamount>40</allamount>
+    <DoAmount>21</DoAmount>
+    <diff>19</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2060</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل استاتیک (نوع دوم) دو سیم پیچ  63 و 132  کیلوولت</ItemTitle>
+    <allamount>35</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>31</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2061</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين محدود (REF) نیومریکال 230 و 400 کیلوولت</ItemTitle>
+    <allamount>18</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>14</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2062</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين محدود (REF) نیومریکال 63 و 230 کیلوولت</ItemTitle>
+    <allamount>67</allamount>
+    <DoAmount>17</DoAmount>
+    <diff>50</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2063</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين محدود (REF) امپدانس بالا 230 و 400 کیلوولت</ItemTitle>
+    <allamount>51</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>42</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2064</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين محدود (REF) امپدانس بالا (استاتیک نوع اول) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>142</allamount>
+    <DoAmount>111</DoAmount>
+    <diff>31</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2065</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين محدود (REF) امپدانس بالا (استاتیک نوع دوم) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>220</allamount>
+    <DoAmount>19</DoAmount>
+    <diff>201</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2066</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل باسبار 230 و 400 کیلوولت نیومریکال (توزیع شده)</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2067</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل باسبار 230 و 400 کیلوولت نیومریکال (مجتمع)</ItemTitle>
+    <allamount>3</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>3</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2068</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل باسبار 230 و 400 کیلوولت امپدانس بالا ( مجموعه سه فاز)</ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>2</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2069</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل باسبار 63 و 132 کیلوولت نیومریکال (توزیع شده)</ItemTitle>
+    <allamount>32</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>32</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2070</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل باسبار 63 و 132 کیلوولت نیومریکال (مجتمع)</ItemTitle>
+    <allamount>13</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>13</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2071</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل باسبار 63 و 132 کیلوولت امپدانس بالا ( مجموعه سه فاز)</ItemTitle>
+    <allamount>16</allamount>
+    <DoAmount>5</DoAmount>
+    <diff>11</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2072</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل خط  230 و 400  کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>14</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>14</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2073</itemcode>
+    <ItemTitle>آزمون اساسی رله ديفرانسيل خط  63 و 132  کیلوولت به همراه کلیه فانکشنهای فعال</ItemTitle>
+    <allamount>24</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>15</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2074</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جريان استاتیک 230 و 400 کیلوولت ( مجموعه سه فاز ) </ItemTitle>
+    <allamount>25</allamount>
+    <DoAmount>24</DoAmount>
+    <diff>1</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2075</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين استاتیک 230 و 400 کیلوولت ( تك فاز ) </ItemTitle>
+    <allamount>47</allamount>
+    <DoAmount>21</DoAmount>
+    <diff>26</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2076</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جريان استاتیک (نوع اول) 63 و 132 کیلوولت ( مجموعه سه فاز ) </ItemTitle>
+    <allamount>90</allamount>
+    <DoAmount>96</DoAmount>
+    <diff>-6</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2077</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جريان استاتیک (نوع دوم) 63 و 132 کیلوولت ( مجموعه سه فاز ) </ItemTitle>
+    <allamount>90</allamount>
+    <DoAmount>20</DoAmount>
+    <diff>70</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2078</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين استاتیک (نوع اول) 63 و 132 کیلوولت ( تك فاز ) </ItemTitle>
+    <allamount>75</allamount>
+    <DoAmount>100</DoAmount>
+    <diff>-25</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2079</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين استاتیک (نوع دوم) 63 و 132 کیلوولت ( تك فاز ) </ItemTitle>
+    <allamount>75</allamount>
+    <DoAmount>20</DoAmount>
+    <diff>55</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2080</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جريان استاتیک (نوع اول) 20 کیلوولت ( مجموعه سه فاز ) </ItemTitle>
+    <allamount>300</allamount>
+    <DoAmount>301</DoAmount>
+    <diff>-1</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2081</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جريان استاتیک (نوع دوم) 20 کیلوولت ( مجموعه سه فاز ) </ItemTitle>
+    <allamount>280</allamount>
+    <DoAmount>49</DoAmount>
+    <diff>231</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2082</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين استاتیک (نوع اول)  20 کیلوولت ( تك فاز ) </ItemTitle>
+    <allamount>300</allamount>
+    <DoAmount>302</DoAmount>
+    <diff>-2</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2083</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمين استاتیک (نوع دوم)  20 کیلوولت ( تك فاز ) </ItemTitle>
+    <allamount>280</allamount>
+    <DoAmount>55</DoAmount>
+    <diff>225</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2084</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمین حساس 20 کیلوولت (مستقل)</ItemTitle>
+    <allamount>26</allamount>
+    <DoAmount>6</DoAmount>
+    <diff>20</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2085</itemcode>
+    <ItemTitle>آزمون اساسی رله نامتعادلی جریان خازن 20 کیلوولت (مستقل)</ItemTitle>
+    <allamount>70</allamount>
+    <DoAmount>15</DoAmount>
+    <diff>55</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2086</itemcode>
+    <ItemTitle>آزمون اساسی رله کنترل وار اتوماتیک خازن 20 کیلوولت</ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2087</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جریان و اتصال زمین نیومریکال 230 و 400 کیلوولت به همراه کلیه فانکشن های فعال</ItemTitle>
+    <allamount>58</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>57</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2088</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جریان و اتصال زمین نیومریکال 63 و 132 کیلوولت به همراه کلیه فانکشن های فعال</ItemTitle>
+    <allamount>444</allamount>
+    <DoAmount>17</DoAmount>
+    <diff>427</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2089</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جریان و اتصال زمین نیومریکال   20 کیلوولت به همراه کلیه فانکشن های فعال</ItemTitle>
+    <allamount>490</allamount>
+    <DoAmount>351</DoAmount>
+    <diff>139</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2090</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جریان و اتصال زمین نیومریکال با وصل مجدد خودکار به همراه کلیه فانکشن های فعال</ItemTitle>
+    <allamount>536</allamount>
+    <DoAmount>172</DoAmount>
+    <diff>364</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2091</itemcode>
+    <ItemTitle>آزمون اساسی رله  اضافه جریان جهت دار استاتیک (نوع اول) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>160</allamount>
+    <DoAmount>82</DoAmount>
+    <diff>78</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2092</itemcode>
+    <ItemTitle>آزمون اساسی رله  اضافه جریان جهت دار استاتیک (نوع دوم) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>44</allamount>
+    <DoAmount>16</DoAmount>
+    <diff>28</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2093</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمین جهت دار استاتیک  230 و 400 کیلوولت</ItemTitle>
+    <allamount>15</allamount>
+    <DoAmount>7</DoAmount>
+    <diff>8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2094</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمین جهت دار استاتیک (نوع اول) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>80</allamount>
+    <DoAmount>59</DoAmount>
+    <diff>21</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2095</itemcode>
+    <ItemTitle>آزمون اساسی رله اتصال زمین جهت دار استاتیک (نوع دوم) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>40</allamount>
+    <DoAmount>10</DoAmount>
+    <diff>30</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2096</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جریان و اتصال زمین جهت دار نیومریکال  230 و 400 کیلوولت به همراه کلیه فانکشن های فعال</ItemTitle>
+    <allamount>20</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>20</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2097</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه جریان و اتصال زمین جهت دار نیومریکال 63 و 132 کیلوولت به همراه کلیه فانکشن های فعال</ItemTitle>
+    <allamount>240</allamount>
+    <DoAmount>32</DoAmount>
+    <diff>208</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2098</itemcode>
+    <ItemTitle>آزمون اساسی رله حفاظت STUB مستقل 230 و 400 کیلوولت</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2099</itemcode>
+    <ItemTitle>آزمون اساسی رله وصل مجدد مستقل خط 230 و 400 كيلوولت </ItemTitle>
+    <allamount>5</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>5</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2100</itemcode>
+    <ItemTitle>آزمون اساسی رله وصل مجدد مستقل خط   63 و 132 كيلوولت (استاتیک نوع اول)</ItemTitle>
+    <allamount>60</allamount>
+    <DoAmount>26</DoAmount>
+    <diff>34</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2101</itemcode>
+    <ItemTitle>آزمون اساسی رله وصل مجدد مستقل خط   63 و 132 كيلوولت (استاتیک نوع دوم)</ItemTitle>
+    <allamount>24</allamount>
+    <DoAmount>6</DoAmount>
+    <diff>18</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2102</itemcode>
+    <ItemTitle>آزمون اساسی رله وصل مجدد مستقل خط 20 كيلوولت (استاتیک نوع اول)</ItemTitle>
+    <allamount>210</allamount>
+    <DoAmount>245</DoAmount>
+    <diff>-35</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2103</itemcode>
+    <ItemTitle>آزمون اساسی رله وصل مجدد مستقل خط 20 كيلوولت (استاتیک نوع دوم)</ItemTitle>
+    <allamount>82</allamount>
+    <DoAmount>27</DoAmount>
+    <diff>55</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2104</itemcode>
+    <ItemTitle>آزمون اساسی رله سنکرون چک (و سنکروسکوپ) مستقل باسبار 230 و  400 کیلوولت </ItemTitle>
+    <allamount>14</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>14</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2105</itemcode>
+    <ItemTitle>آزمون اساسی رله سنکرون چک (و سنکروسکوپ) مستقل باسبار 63 و  132 کیلوولت</ItemTitle>
+    <allamount>59</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>59</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2106</itemcode>
+    <ItemTitle>آزمون اساسی رله عيب كليد استاتیک 230 و 400 کیلوولت</ItemTitle>
+    <allamount>19</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>19</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2107</itemcode>
+    <ItemTitle>آزمون اساسی رله عيب كليد استاتیک 63 و 132 کیلوولت</ItemTitle>
+    <allamount>32</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>32</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2108</itemcode>
+    <ItemTitle>آزمون اساسی رله حفاظت كليد نیومریکال 230 و 400 کیلوولت به همراه کلیه حفاظت های فعال (CBF،PD, SHZ,Sync)</ItemTitle>
+    <allamount>115</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>115</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2109</itemcode>
+    <ItemTitle>آزمون اساسی رله حفاظت كليد نیومریکال 132 کیلوولت به همراه کلیه حفاظت های فعال (CBF،SHZ)</ItemTitle>
+    <allamount>77</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>76</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2110</itemcode>
+    <ItemTitle>آزمون اساسی رله رگولاتور ولتاژ نیومریکال 230 و 400 کیلوولت</ItemTitle>
+    <allamount>16</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>16</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2111</itemcode>
+    <ItemTitle>آزمون اساسی رله رگولاتور ولتاژ استاتیک 230 و 400 کیلوولت</ItemTitle>
+    <allamount>15</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>11</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2112</itemcode>
+    <ItemTitle>آزمون اساسی رله رگولاتور ولتاژ نیومریکال 63 و 132 کیلوولت</ItemTitle>
+    <allamount>137</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>128</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2113</itemcode>
+    <ItemTitle>آزمون اساسی رله رگولاتور ولتاژ استاتیک (نوع اول) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>74</allamount>
+    <DoAmount>47</DoAmount>
+    <diff>27</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2114</itemcode>
+    <ItemTitle>آزمون اساسی رله رگولاتور ولتاژ استاتیک (نوع دوم) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>50</allamount>
+    <DoAmount>8</DoAmount>
+    <diff>42</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2115</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه شار استاتیک مستقل 230 و 400 کیلوولت</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2116</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه شار استاتیک (نوع اول)  مستقل 63 و 132 کیلوولت</ItemTitle>
+    <allamount>42</allamount>
+    <DoAmount>13</DoAmount>
+    <diff>29</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2117</itemcode>
+    <ItemTitle>آزمون اساسی رله اضافه شار استاتیک (نوع دوم) مستقل 63 و 132 کیلوولت</ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>-2</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2118</itemcode>
+    <ItemTitle>آزمون آساسی رله ولتاژ زياد و ولتاژ کم نیومریکال 230 و 400 کیلوولت</ItemTitle>
+    <allamount>35</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>34</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2119</itemcode>
+    <ItemTitle>آزمون آساسی رله ولتاژ زياد و ولتاژ کم نیومریکال 63 و 132 کیلوولت</ItemTitle>
+    <allamount>66</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>66</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2120</itemcode>
+    <ItemTitle>آزمون آساسی رله ولتاژ زياد و ولتاژ کم نیومریکال 20 کیلوولت</ItemTitle>
+    <allamount>24</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>22</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2121</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ زياد استاتیک 230 و 400 کیلوولت</ItemTitle>
+    <allamount>11</allamount>
+    <DoAmount>2</DoAmount>
+    <diff>9</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2122</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ زياد استاتیک (نوع اول) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>3</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2123</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ زياد استاتیک (نوع دوم) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2124</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ زياد استاتیک (نوع اول) 20  کیلوولت</ItemTitle>
+    <allamount>4</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2125</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ زياد استاتیک (نوع دوم) 20  کیلوولت</ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>4</DoAmount>
+    <diff>-4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2126</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ كم استاتیک 230 و 400 کیلوولت</ItemTitle>
+    <allamount>20</allamount>
+    <DoAmount>7</DoAmount>
+    <diff>13</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2127</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ كم استاتیک (نوع اول) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>12</DoAmount>
+    <diff>-4</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2128</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ كم استاتیک (نوع دوم) 63 و 132 کیلوولت</ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2129</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ كم استاتیک (نوع اول) 20 کیلوولت</ItemTitle>
+    <allamount>8</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>8</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2130</itemcode>
+    <ItemTitle>آزمون اساسی رله ولتاژ كم استاتیک (نوع دوم) 20 کیلوولت</ItemTitle>
+    <allamount>0</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>0</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2131</itemcode>
+    <ItemTitle>آزمون رله حفاظت ویژه برگشت توان</ItemTitle>
+    <allamount>9</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>9</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2132</itemcode>
+    <ItemTitle>آزمون رله حفاظت ویژه ولتاژی / فرکانسی</ItemTitle>
+    <allamount>52</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>51</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2133</itemcode>
+    <ItemTitle>آزمون رله حفاظت ویژه جریانی</ItemTitle>
+    <allamount>26</allamount>
+    <DoAmount>8</DoAmount>
+    <diff>18</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2134</itemcode>
+    <ItemTitle>آزمون طرح حفاظت ویژه مداری</ItemTitle>
+    <allamount>18</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>18</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2135</itemcode>
+    <ItemTitle>آزمون دوره ای رله دیستانس نیومریکال</ItemTitle>
+    <allamount>350</allamount>
+    <DoAmount>189</DoAmount>
+    <diff>161</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2136</itemcode>
+    <ItemTitle>آزمون دوره ای رله دیستانس استاتیک</ItemTitle>
+    <allamount>107</allamount>
+    <DoAmount>5</DoAmount>
+    <diff>102</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2137</itemcode>
+    <ItemTitle>آزمون دوره ای رله دیفرانسیل ترانسفورماتور نیومریکال</ItemTitle>
+    <allamount>255</allamount>
+    <DoAmount>137</DoAmount>
+    <diff>118</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2138</itemcode>
+    <ItemTitle>آزمون دوره ای رله دیفرانسیل ترانسفورماتور استاتیک</ItemTitle>
+    <allamount>79</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>78</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2139</itemcode>
+    <ItemTitle>آزمون دوره ای رله جریانی (اتصال زمین، اضافه جریان و ....)</ItemTitle>
+    <allamount>1580</allamount>
+    <DoAmount>672</DoAmount>
+    <diff>908</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2140</itemcode>
+    <ItemTitle>آزمون دوره ای رله ولتاژی / فرکانسی</ItemTitle>
+    <allamount>86</allamount>
+    <DoAmount>26</DoAmount>
+    <diff>60</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2141</itemcode>
+    <ItemTitle>آزمون دوره ای رله جریانی و ولتاژی بدون جهت</ItemTitle>
+    <allamount>200</allamount>
+    <DoAmount>37</DoAmount>
+    <diff>163</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2142</itemcode>
+    <ItemTitle>آزمون دوره ای رله جریانی و ولتاژی جهت دار</ItemTitle>
+    <allamount>430</allamount>
+    <DoAmount>133</DoAmount>
+    <diff>297</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2143</itemcode>
+    <ItemTitle>آزمون دوره ای رله اتصال زمین امپدانس بالا (REF)</ItemTitle>
+    <allamount>139</allamount>
+    <DoAmount>79</DoAmount>
+    <diff>60</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2144</itemcode>
+    <ItemTitle>آزمون دوره ای رله دیفرانسیل طولی</ItemTitle>
+    <allamount>42</allamount>
+    <DoAmount>36</DoAmount>
+    <diff>6</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2145</itemcode>
+    <ItemTitle>آزمون دوره ای رله رگولاتور ولتاژ</ItemTitle>
+    <allamount>270</allamount>
+    <DoAmount>69</DoAmount>
+    <diff>201</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2146</itemcode>
+    <ItemTitle>آزمون  فصلی باتری 110 ولت</ItemTitle>
+    <allamount>181</allamount>
+    <DoAmount>69</DoAmount>
+    <diff>112</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2147</itemcode>
+    <ItemTitle>آزمون سالیانه باتری 110 ولت (ترموویژن، مقاومت اتصالات و امپدانس داخلی)</ItemTitle>
+    <allamount>181</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>181</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2148</itemcode>
+    <ItemTitle>آزمون اندازه گیری ظرفیت به ازای کلیه سلول های باتری 110 ولت</ItemTitle>
+    <allamount>188</allamount>
+    <DoAmount>1</DoAmount>
+    <diff>187</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2149</itemcode>
+    <ItemTitle>آزمون  فصلی باتری 48 ولت</ItemTitle>
+    <allamount>26</allamount>
+    <DoAmount>9</DoAmount>
+    <diff>17</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2150</itemcode>
+    <ItemTitle>آزمون سالیانه باتری 48 ولت (ترموویژن، مقاومت اتصالات و امپدانس داخلی)</ItemTitle>
+    <allamount>26</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>26</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2151</itemcode>
+    <ItemTitle>آزمون اندازه گیری ظرفیت به ازای کلیه سلول های باتری 48 ولت</ItemTitle>
+    <allamount>26</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>26</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2152</itemcode>
+    <ItemTitle>آزمون های الکتریکی شارژر 48 و 110 ولت</ItemTitle>
+    <allamount>253</allamount>
+    <DoAmount>111</DoAmount>
+    <diff>142</diff>
+  </pm_Con_Rp_RemainedItem>
+  <pm_Con_Rp_RemainedItem>
+    <itemcode>P2153</itemcode>
+    <ItemTitle>آزمون های الکتریکی اینورتر</ItemTitle>
+    <allamount>33</allamount>
+    <DoAmount>0</DoAmount>
+    <diff>33</diff>
+  </pm_Con_Rp_RemainedItem>
+</Ds_Con>

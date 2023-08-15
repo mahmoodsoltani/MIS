@@ -1,0 +1,4 @@
+create new table :Pm_ImportancePercent
+
+add new field (Srl_Pm_ImportancePercent) to pm_EibType
+add new field (Srl_Pm_ImportancePercent) to pm_EibFormDetail

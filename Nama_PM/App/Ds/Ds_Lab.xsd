@@ -1,0 +1,1168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_Lab" targetNamespace="http://tempuri.org/Ds_Lab.xsd" xmlns:mstns="http://tempuri.org/Ds_Lab.xsd" xmlns="http://tempuri.org/Ds_Lab.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Nama_PMConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Nama_PMConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Nama_PM.My.MySettings.GlobalReference.Default.Nama_PMConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_ElateVorodTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_ElateVorodTableAdapter" Name="Pm_Lab_Rol_ElateVorod" UserDataComponentName="Pm_Lab_Rol_ElateVorodTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_ElateVorod" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Srl, Text as [علت ورود] FROM dbo.Pm_Lab_Rol_ElateVorod</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="علت ورود" DataSetColumn="علت ورود" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_SatheAhamniatTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_SatheAhamniatTableAdapter" Name="Pm_Lab_Rol_SatheAhamniat" UserDataComponentName="Pm_Lab_Rol_SatheAhamniatTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_SatheAhamniat" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Srl, Text AS [سطح اهمیت]
+FROM            Pm_Lab_Rol_SatheAhamniat</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="سطح اهمیت" DataSetColumn="سطح اهمیت" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Device_SazandeTableAdapter" GeneratorDataComponentClassName="Pm_Device_SazandeTableAdapter" Name="Pm_Device_Sazande" UserDataComponentName="Pm_Device_SazandeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Device_Sazande" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Srl, Text AS سازندگان
+FROM            Pm_Device_Sazande
+Order By Text</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="سازندگان" DataSetColumn="سازندگان" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_GhatatMasrafiTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_GhatatMasrafiTableAdapter" Name="Pm_Lab_Rol_GhatatMasrafi" UserDataComponentName="Pm_Lab_Rol_GhatatMasrafiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_GhatatMasrafi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Srl, text AS [قطعات مصرفی]
+FROM            Pm_Lab_Rol_GhatatMasrafi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="قطعات مصرفی" DataSetColumn="قطعات مصرفی" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_TamiratViewTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_TamiratViewTableAdapter" Name="Pm_Lab_Rol_TamiratView" UserDataComponentName="Pm_Lab_Rol_TamiratViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT      dbo.Pm_Lab_Rol_Tamirat.Srl, dbo.Pm_Lab_Rol_Tamirat.No AS شماره, CASE WHEN srl_pm_tajhizname IS NULL 
+                      THEN Pm_Hadese_KhesaratDevice.Name ELSE pm_tajhizname.name END AS [نام قطعه], dbo.Pm_Post.Name AS پست, 
+                      dbo.Pm_Lab_Rol_SatheAhamniat.Text AS [سطح اهمیت], dbo.Pm_Lab_Rol_ElateVorod.Text AS [علت ورود], dbo.Pm_Lab_Rol_Tamirat.VorodDate AS [تاریخ ورود], 
+                      dbo.Pm_Lab_Rol_Tamirat.VorodDateBound AS [بازه تعمیر], dbo.Pm_Lab_Rol_Tamirat.TamirDate AS [تاریخ تعمیر], 
+                      dbo.Pm_Lab_Rol_Tamirat.TamirDateBound AS [بازه تحویل], dbo.Pm_Lab_Rol_Tamirat.TahvilDate AS [تاریخ تحویل], 
+                      dbo.Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice
+FROM         dbo.Pm_Lab_Rol_Tamirat LEFT JOIN
+                      dbo.Pm_Lab_Rol_SatheAhamniat ON dbo.Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = dbo.Pm_Lab_Rol_SatheAhamniat.Srl  LEFT JOIN
+                      dbo.Pm_Hadese_KhesaratDevice ON dbo.Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = dbo.Pm_Hadese_KhesaratDevice.Srl  LEFT JOIN
+                      dbo.Pm_Lab_Rol_ElateVorod ON dbo.Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = dbo.Pm_Lab_Rol_ElateVorod.Srl  LEFT JOIN
+                      dbo.Pm_Post ON dbo.Pm_Lab_Rol_Tamirat.Srl_Pm_Post = dbo.Pm_Post.Srl LEFT OUTER JOIN
+                      dbo.Pm_TajhizName ON dbo.Pm_TajhizName.Srl = dbo.Pm_Hadese_KhesaratDevice.Srl_pm_TajhizName
+ORDER BY dbo.Pm_Lab_Rol_Tamirat.Srl DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="شماره" DataSetColumn="شماره" />
+              <Mapping SourceColumn="نام قطعه" DataSetColumn="نام قطعه" />
+              <Mapping SourceColumn="پست" DataSetColumn="پست" />
+              <Mapping SourceColumn="سطح اهمیت" DataSetColumn="سطح اهمیت" />
+              <Mapping SourceColumn="علت ورود" DataSetColumn="علت ورود" />
+              <Mapping SourceColumn="تاریخ تعمیر" DataSetColumn="تاریخ تعمیر" />
+              <Mapping SourceColumn="تاریخ تحویل" DataSetColumn="تاریخ تحویل" />
+              <Mapping SourceColumn="تاریخ ورود" DataSetColumn="تاریخ ورود" />
+              <Mapping SourceColumn="بازه تعمیر" DataSetColumn="بازه تعمیر" />
+              <Mapping SourceColumn="بازه تحویل" DataSetColumn="بازه تحویل" />
+              <Mapping SourceColumn="Srl_Pm_Hadese_KhesaratDevice" DataSetColumn="Srl_Pm_Hadese_KhesaratDevice" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBySearchOption" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBySearchOption" GeneratorSourceName="FillBySearchOption" GetMethodModifier="Public" GetMethodName="GetDataBySearchOption" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBySearchOption" UserSourceName="FillBySearchOption">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT       distinct  Pm_Lab_Rol_Tamirat.Srl, Pm_Lab_Rol_Tamirat.No AS شماره, Pm_Hadese_KhesaratDevice.Name AS [نام قطعه], Pm_Post.Name AS پست, 
+                         Pm_Lab_Rol_SatheAhamniat.Text AS [سطح اهمیت], Pm_Lab_Rol_ElateVorod.Text AS [علت ورود], Pm_Lab_Rol_Tamirat.VorodDate AS [تاریخ ورود], 
+                         Pm_Lab_Rol_Tamirat.VorodDateBound AS [بازه تعمیر], Pm_Lab_Rol_Tamirat.TamirDate AS [تاریخ تعمیر], Pm_Lab_Rol_Tamirat.TamirDateBound AS [بازه تحویل], 
+                         Pm_Lab_Rol_Tamirat.TahvilDate AS [تاریخ تحویل]
+FROM            Pm_Lab_Rol_Tamirat LEft JOIN
+                         Pm_Lab_Rol_SatheAhamniat ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = Pm_Lab_Rol_SatheAhamniat.Srl LEFT JOIN
+                         Pm_Hadese_KhesaratDevice ON Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = Pm_Hadese_KhesaratDevice.Srl LeFT JOIN
+                         Pm_Lab_Rol_ElateVorod ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = Pm_Lab_Rol_ElateVorod.Srl LEFT JOIN
+                         Pm_Post ON Pm_Lab_Rol_Tamirat.Srl_Pm_Post = Pm_Post.Srl
+left join Pm_Lab_Rol_Tamirat_GheteMasrafi on Pm_Lab_Rol_Tamirat .Srl = Pm_Lab_Rol_Tamirat_GheteMasrafi .Srl_Pm_Lab_Rol_Tamirat 
+WHERE     (Pm_Lab_Rol_Tamirat.Srl_Pm_Post = @Srl_Pm_Post or @Srl_Pm_Post=-1) AND 
+(Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = @Srl_Pm_Hadese_KhesaratDevice or @Srl_Pm_Hadese_KhesaratDevice=-1) AND 
+(Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = @Srl_Pm_Lab_Rol_SatheAhamniat or @Srl_Pm_Lab_Rol_SatheAhamniat=-1) AND 
+(Pm_Lab_Rol_Tamirat.Srl_Acc_Ashkhas_Tavasot = @Srl_Acc_Ashkhas_Tavasot or @Srl_Acc_Ashkhas_Tavasot=-1) AND 
+(Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = @Srl_Pm_Lab_Rol_ElateVorod or @Srl_Pm_Lab_Rol_ElateVorod=-1) AND 
+(Pm_Lab_Rol_Tamirat.No =@No or @No='-1') AND 
+(Pm_Lab_Rol_Tamirat.NafarSAt =@NafarSAt or @NafarSAt='-1') AND 
+(Pm_Lab_Rol_Tamirat.VorodDate &gt;= @VorodDateBegin or @VorodDateBegin='-1') AND 
+(Pm_Lab_Rol_Tamirat.VorodDate &lt;= @VorodDateEnd or @VorodDateEnd='-1') AND 
+(Pm_Lab_Rol_Tamirat.TamirDate &gt;= @TamirDateBegin or @TamirDateBegin='-1') AND 
+(Pm_Lab_Rol_Tamirat.TamirDate &lt;= @TamirDateEnd or @TamirDateEnd='-1') AND 
+(Pm_Lab_Rol_Tamirat.TahvilDate &gt;= @TahvilDateBegin or @TahvilDateBegin='-1') AND 
+(Pm_Lab_Rol_Tamirat.TahvilDate &lt;= @TahvilDateEnd or @TahvilDateEnd='-1') AND 
+(Pm_Lab_Rol_Tamirat.SabtDate &gt;= @SabtDateBegin or @SabtDateBegin ='-1') AND 
+(Pm_Lab_Rol_Tamirat.SabtDate &lt;= @SabtDateTo or @SabtDateTo='-1') AND 
+(Pm_Lab_Rol_Tamirat_GheteMasrafi .Pm_Lab_Rol_GhatatMasrafi = @SrlGhete or @SrlGhete=-1) AND
+(Pm_Lab_Rol_Tamirat.Srl_Acc_Ashkhas_Tahvil = @Srl_Acc_Ashkhas_Tahvil or @Srl_Acc_Ashkhas_Tahvil=-1) AND 
+(Pm_Lab_Rol_Tamirat.Dis LIKE @Dis or @Dis='-1')
+ORDER BY Pm_Lab_Rol_Tamirat.Srl DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="Srl_Pm_Post" ColumnName="Srl_Pm_Post" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Post" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Post" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Hadese_KhesaratDevice" ColumnName="Srl_Pm_Hadese_KhesaratDevice" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Hadese_KhesaratDevice" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Hadese_KhesaratDevice" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_SatheAhamniat" ColumnName="Srl_Pm_Lab_Rol_SatheAhamniat" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_SatheAhamniat" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_SatheAhamniat" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Acc_Ashkhas_Tavasot" ColumnName="Srl_Acc_Ashkhas_Tavasot" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Acc_Ashkhas_Tavasot" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Acc_Ashkhas_Tavasot" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_ElateVorod" ColumnName="Srl_Pm_Lab_Rol_ElateVorod" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_ElateVorod" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_ElateVorod" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="No" ColumnName="No" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@No" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="شماره" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="NafarSAt" ColumnName="NafarSAt" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@NafarSAt" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="NafarSAt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="VorodDateBegin" ColumnName="VorodDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@VorodDateBegin" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ ورود" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="VorodDateEnd" ColumnName="VorodDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@VorodDateEnd" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ ورود" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TamirDateBegin" ColumnName="TamirDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@TamirDateBegin" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ تعمیر" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TamirDateEnd" ColumnName="TamirDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@TamirDateEnd" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ تعمیر" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TahvilDateBegin" ColumnName="TahvilDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@TahvilDateBegin" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ تحویل" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TahvilDateEnd" ColumnName="TahvilDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@TahvilDateEnd" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ تحویل" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="SabtDateBegin" ColumnName="SabtDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@SabtDateBegin" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="SabtDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="SabtDateTo" ColumnName="SabtDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@SabtDateTo" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="SabtDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="SrlGhete" ColumnName="Pm_Lab_Rol_GhatatMasrafi" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat_GheteMasrafi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@SrlGhete" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Pm_Lab_Rol_GhatatMasrafi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Acc_Ashkhas_Tahvil" ColumnName="Srl_Acc_Ashkhas_Tahvil" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Acc_Ashkhas_Tahvil" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Acc_Ashkhas_Tahvil" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Dis" ColumnName="Dis" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(500)" DbType="String" Direction="Input" ParameterName="@Dis" Precision="0" ProviderType="NVarChar" Scale="0" Size="500" SourceColumn="Dis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByTahvilDateBound" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByTahvilDateBound" GeneratorSourceName="FillByTahvilDateBound" GetMethodModifier="Public" GetMethodName="GetDataByTahvilDateBound" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByTahvilDateBound" UserSourceName="FillByTahvilDateBound">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TOP (100) PERCENT Pm_Lab_Rol_Tamirat.Srl, Pm_Lab_Rol_Tamirat.No AS شماره, Pm_Hadese_KhesaratDevice.Name AS [نام قطعه], Pm_Post.Name AS پست, 
+                         Pm_Lab_Rol_SatheAhamniat.Text AS [سطح اهمیت], Pm_Lab_Rol_ElateVorod.Text AS [علت ورود], Pm_Lab_Rol_Tamirat.VorodDate AS [تاریخ ورود], 
+                         Pm_Lab_Rol_Tamirat.VorodDateBound AS [بازه تعمیر], Pm_Lab_Rol_Tamirat.TamirDate AS [تاریخ تعمیر], Pm_Lab_Rol_Tamirat.TamirDateBound AS [بازه تحویل], 
+                         Pm_Lab_Rol_Tamirat.TahvilDate AS [تاریخ تحویل]
+FROM            Pm_Lab_Rol_Tamirat INNER JOIN
+                         Pm_Lab_Rol_SatheAhamniat ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = Pm_Lab_Rol_SatheAhamniat.Srl INNER JOIN
+                         Pm_Hadese_KhesaratDevice ON Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = Pm_Hadese_KhesaratDevice.Srl INNER JOIN
+                         Pm_Lab_Rol_ElateVorod ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = Pm_Lab_Rol_ElateVorod.Srl INNER JOIN
+                         Pm_Post ON Pm_Lab_Rol_Tamirat.Srl_Pm_Post = Pm_Post.Srl
+WHERE        (Pm_Lab_Rol_Tamirat.TamirDateBound &lt; @tarikhJary) AND (Pm_Lab_Rol_Tamirat.TahvilDate = N'')
+ORDER BY Pm_Lab_Rol_Tamirat.Srl DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="tarikhJary" ColumnName="TamirDateBound" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@tarikhJary" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="بازه تحویل" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByTahvilDateEmpty" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBytahvilDateEmpty" GeneratorSourceName="FillByTahvilDateEmpty" GetMethodModifier="Public" GetMethodName="GetDataBytahvilDateEmpty" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBytahvilDateEmpty" UserSourceName="FillByTahvilDateEmpty">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TOP (100) PERCENT Pm_Lab_Rol_Tamirat.Srl, Pm_Lab_Rol_Tamirat.No AS شماره, Pm_Hadese_KhesaratDevice.Name AS [نام قطعه], Pm_Post.Name AS پست, 
+                         Pm_Lab_Rol_SatheAhamniat.Text AS [سطح اهمیت], Pm_Lab_Rol_ElateVorod.Text AS [علت ورود], Pm_Lab_Rol_Tamirat.VorodDate AS [تاریخ ورود], 
+                         Pm_Lab_Rol_Tamirat.VorodDateBound AS [بازه تعمیر], Pm_Lab_Rol_Tamirat.TamirDate AS [تاریخ تعمیر], Pm_Lab_Rol_Tamirat.TamirDateBound AS [بازه تحویل], 
+                         Pm_Lab_Rol_Tamirat.TahvilDate AS [تاریخ تحویل]
+FROM            Pm_Lab_Rol_Tamirat INNER JOIN
+                         Pm_Lab_Rol_SatheAhamniat ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = Pm_Lab_Rol_SatheAhamniat.Srl INNER JOIN
+                         Pm_Hadese_KhesaratDevice ON Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = Pm_Hadese_KhesaratDevice.Srl INNER JOIN
+                         Pm_Lab_Rol_ElateVorod ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = Pm_Lab_Rol_ElateVorod.Srl INNER JOIN
+                         Pm_Post ON Pm_Lab_Rol_Tamirat.Srl_Pm_Post = Pm_Post.Srl
+WHERE        (Pm_Lab_Rol_Tamirat.TahvilDate = N'')
+ORDER BY Pm_Lab_Rol_Tamirat.Srl DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByTamirDateBound" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByTamirDateBound" GeneratorSourceName="FillByTamirDateBound" GetMethodModifier="Public" GetMethodName="GetDataByTamirDateBound" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByTamirDateBound" UserSourceName="FillByTamirDateBound">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TOP (100) PERCENT Pm_Lab_Rol_Tamirat.Srl, Pm_Lab_Rol_Tamirat.No AS شماره, Pm_Hadese_KhesaratDevice.Name AS [نام قطعه], Pm_Post.Name AS پست, 
+                         Pm_Lab_Rol_SatheAhamniat.Text AS [سطح اهمیت], Pm_Lab_Rol_ElateVorod.Text AS [علت ورود], Pm_Lab_Rol_Tamirat.VorodDate AS [تاریخ ورود], 
+                         Pm_Lab_Rol_Tamirat.VorodDateBound AS [بازه تعمیر], Pm_Lab_Rol_Tamirat.TamirDate AS [تاریخ تعمیر], Pm_Lab_Rol_Tamirat.TamirDateBound AS [بازه تحویل], 
+                         Pm_Lab_Rol_Tamirat.TahvilDate AS [تاریخ تحویل]
+FROM            Pm_Lab_Rol_Tamirat INNER JOIN
+                         Pm_Lab_Rol_SatheAhamniat ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = Pm_Lab_Rol_SatheAhamniat.Srl INNER JOIN
+                         Pm_Hadese_KhesaratDevice ON Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = Pm_Hadese_KhesaratDevice.Srl INNER JOIN
+                         Pm_Lab_Rol_ElateVorod ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = Pm_Lab_Rol_ElateVorod.Srl INNER JOIN
+                         Pm_Post ON Pm_Lab_Rol_Tamirat.Srl_Pm_Post = Pm_Post.Srl
+WHERE        (Pm_Lab_Rol_Tamirat.VorodDateBound &lt; @tarikhJary) AND (Pm_Lab_Rol_Tamirat.TamirDate = N'')
+ORDER BY Pm_Lab_Rol_Tamirat.Srl DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="tarikhJary" ColumnName="VorodDateBound" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@tarikhJary" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="بازه تعمیر" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByTamirDateEmpty" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByTamirDateEmpty" GeneratorSourceName="FillByTamirDateEmpty" GetMethodModifier="Public" GetMethodName="GetDataByTamirDateEmpty" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByTamirDateEmpty" UserSourceName="FillByTamirDateEmpty">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TOP (100) PERCENT Pm_Lab_Rol_Tamirat.Srl, Pm_Lab_Rol_Tamirat.No AS شماره, Pm_Hadese_KhesaratDevice.Name AS [نام قطعه], Pm_Post.Name AS پست, 
+                         Pm_Lab_Rol_SatheAhamniat.Text AS [سطح اهمیت], Pm_Lab_Rol_ElateVorod.Text AS [علت ورود], Pm_Lab_Rol_Tamirat.VorodDate AS [تاریخ ورود], 
+                         Pm_Lab_Rol_Tamirat.VorodDateBound AS [بازه تعمیر], Pm_Lab_Rol_Tamirat.TamirDate AS [تاریخ تعمیر], Pm_Lab_Rol_Tamirat.TamirDateBound AS [بازه تحویل], 
+                         Pm_Lab_Rol_Tamirat.TahvilDate AS [تاریخ تحویل]
+FROM            Pm_Lab_Rol_Tamirat INNER JOIN
+                         Pm_Lab_Rol_SatheAhamniat ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_SatheAhamniat = Pm_Lab_Rol_SatheAhamniat.Srl INNER JOIN
+                         Pm_Hadese_KhesaratDevice ON Pm_Lab_Rol_Tamirat.Srl_Pm_Hadese_KhesaratDevice = Pm_Hadese_KhesaratDevice.Srl INNER JOIN
+                         Pm_Lab_Rol_ElateVorod ON Pm_Lab_Rol_Tamirat.Srl_Pm_Lab_Rol_ElateVorod = Pm_Lab_Rol_ElateVorod.Srl INNER JOIN
+                         Pm_Post ON Pm_Lab_Rol_Tamirat.Srl_Pm_Post = Pm_Post.Srl
+WHERE        (Pm_Lab_Rol_Tamirat.TamirDate = N'')
+ORDER BY Pm_Lab_Rol_Tamirat.Srl DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_Tamirat_GhateMasrafiTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_Tamirat_GhateMasrafiTableAdapter" Name="Pm_Lab_Rol_Tamirat_GhateMasrafi" UserDataComponentName="Pm_Lab_Rol_Tamirat_GhateMasrafiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Pm_Lab_Rol_Tamirat_GheteMasrafi.Pm_Lab_Rol_GhatatMasrafi, Pm_Lab_Rol_GhatatMasrafi.text AS [قطعه مصرفی], 
+                         Pm_Lab_Rol_Tamirat_GheteMasrafi.tedad AS تعداد
+FROM            Pm_Lab_Rol_Tamirat_GheteMasrafi INNER JOIN
+                         Pm_Lab_Rol_GhatatMasrafi ON Pm_Lab_Rol_Tamirat_GheteMasrafi.Pm_Lab_Rol_GhatatMasrafi = Pm_Lab_Rol_GhatatMasrafi.Srl
+WHERE        (Pm_Lab_Rol_Tamirat_GheteMasrafi.Srl_Pm_Lab_Rol_Tamirat = @Srl_Pm_Lab_Rol_Tamirat) OR
+                         (@Srl_Pm_Lab_Rol_Tamirat = - 1)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_Tamirat" ColumnName="Srl_Pm_Lab_Rol_Tamirat" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tamirat_GheteMasrafi" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Tamirat" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_Tamirat" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Pm_Lab_Rol_GhatatMasrafi" DataSetColumn="Pm_Lab_Rol_GhatatMasrafi" />
+              <Mapping SourceColumn="قطعه مصرفی" DataSetColumn="قطعه مصرفی" />
+              <Mapping SourceColumn="تعداد" DataSetColumn="تعداد" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_SharheKarTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_SharheKarTableAdapter" Name="Pm_Lab_Rol_SharheKar" UserDataComponentName="Pm_Lab_Rol_SharheKarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Pm_Lab_Rol_SharheKar.Srl, Pm_Lab_Rol_SharheKar.Date, Pm_Lab_Rol_SharheKar.Dis, Pm_Lab_Rol_SharheKar.Srl_Master, Pm_Lab_Rol_Master.Srl FROM dbo.Pm_Lab_Rol_SharheKar Inner join dbo.Pm_Lab_Rol_Master ON dbo.Pm_Lab_Rol_SharheKar.Srl_Master=dbo.Pm_Lab_Rol_Master.Srl
+
+where (Pm_Lab_Rol_SharheKar.Srl_Master= @Srl_Master OR @Srl_Master=-1)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Master" ColumnName="Srl_Master" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_SharheKar" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Master" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Master" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Dis" DataSetColumn="Dis" />
+              <Mapping SourceColumn="Srl_Master" DataSetColumn="Srl_Master" />
+              <Mapping SourceColumn="Srl1" DataSetColumn="Srl1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_Masool_TamirTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_Masool_TamirTableAdapter" Name="Pm_Lab_Rol_Masool_Tamir" UserDataComponentName="Pm_Lab_Rol_Masool_TamirTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_Masool_Tamir" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Pm_Lab_Rol_Masool_Tamir] ([Name]) VALUES (@Name)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Srl, Name  
+FROM dbo.Pm_Lab_Rol_Masool_Tamir</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_TajhizTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_TajhizTableAdapter" Name="Pm_Lab_Rol_Tajhiz" UserDataComponentName="Pm_Lab_Rol_TajhizTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_Tajhiz" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[Pm_Lab_Rol_Tajhiz] WHERE (([Srl] = @Original_Srl) AND ((@IsNull_Name = 1 AND [Name] IS NULL) OR ([Name] = @Original_Name)) AND ((@IsNull_Srl_Parent = 1 AND [Srl_Parent] IS NULL) OR ([Srl_Parent] = @Original_Srl_Parent)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Name" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Pm_Lab_Rol_Tajhiz] ([Name], [Srl_Parent]) VALUES (@Name, @Srl_Parent);
+SELECT Srl, Name, Srl_Parent FROM Pm_Lab_Rol_Tajhiz WHERE (Srl = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM dbo.Pm_Lab_Rol_Tajhiz</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[Pm_Lab_Rol_Tajhiz] SET [Name] = @Name, [Srl_Parent] = @Srl_Parent WHERE (([Srl] = @Original_Srl) AND ((@IsNull_Name = 1 AND [Name] IS NULL) OR ([Name] = @Original_Name)) AND ((@IsNull_Srl_Parent = 1 AND [Srl_Parent] IS NULL) OR ([Srl_Parent] = @Original_Srl_Parent)));
+SELECT Srl, Name, Srl_Parent FROM Pm_Lab_Rol_Tajhiz WHERE (Srl = @Srl)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Name" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Srl" ColumnName="Srl" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Tajhiz" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Srl_Parent" DataSetColumn="Srl_Parent" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_MahalTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_MahalTableAdapter" Name="Pm_Lab_Rol_Mahal" UserDataComponentName="Pm_Lab_Rol_MahalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_Mahal" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[Pm_Lab_Rol_Mahal] WHERE (([Srl] = @Original_Srl) AND ((@IsNull_Srl_Parent = 1 AND [Srl_Parent] IS NULL) OR ([Srl_Parent] = @Original_Srl_Parent)) AND ((@IsNull_Name = 1 AND [Name] IS NULL) OR ([Name] = @Original_Name)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Name" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Pm_Lab_Rol_Mahal] ([Srl_Parent], [Name]) VALUES (@Srl_Parent, @Name);
+SELECT Srl, Srl_Parent, Name FROM Pm_Lab_Rol_Mahal WHERE (Srl = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM dbo.Pm_Lab_Rol_Mahal </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[Pm_Lab_Rol_Mahal] SET [Srl_Parent] = @Srl_Parent, [Name] = @Name WHERE (([Srl] = @Original_Srl) AND ((@IsNull_Srl_Parent = 1 AND [Srl_Parent] IS NULL) OR ([Srl_Parent] = @Original_Srl_Parent)) AND ((@IsNull_Name = 1 AND [Name] IS NULL) OR ([Name] = @Original_Name)));
+SELECT Srl, Srl_Parent, Name FROM Pm_Lab_Rol_Mahal WHERE (Srl = @Srl)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Parent" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Parent" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Name" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Name" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Srl" ColumnName="Srl" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Mahal" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="Srl_Parent" DataSetColumn="Srl_Parent" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_MasterTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_MasterTableAdapter" Name="Pm_Lab_Rol_Master" UserDataComponentName="Pm_Lab_Rol_MasterTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[Pm_Lab_Rol_Master] WHERE (([Srl] = @Original_Srl) AND ((@IsNull_Srl_Pm_Device_Sazande = 1 AND [Srl_Pm_Device_Sazande] IS NULL) OR ([Srl_Pm_Device_Sazande] = @Original_Srl_Pm_Device_Sazande)) AND ((@IsNull_Srl_Pm_Lab_Rol_Tajhiz = 1 AND [Srl_Pm_Lab_Rol_Tajhiz] IS NULL) OR ([Srl_Pm_Lab_Rol_Tajhiz] = @Original_Srl_Pm_Lab_Rol_Tajhiz)) AND ((@IsNull_Srl_Pm_Lab_Rol_Masool_Tamir = 1 AND [Srl_Pm_Lab_Rol_Masool_Tamir] IS NULL) OR ([Srl_Pm_Lab_Rol_Masool_Tamir] = @Original_Srl_Pm_Lab_Rol_Masool_Tamir)) AND ((@IsNull_Srl_Pm_Lab_Rol_SharheKar = 1 AND [Srl_Pm_Lab_Rol_SharheKar] IS NULL) OR ([Srl_Pm_Lab_Rol_SharheKar] = @Original_Srl_Pm_Lab_Rol_SharheKar)) AND ((@IsNull_Srl_Pm_Lab_Rol_Mahal_Nasb = 1 AND [Srl_Pm_Lab_Rol_Mahal_Nasb] IS NULL) OR ([Srl_Pm_Lab_Rol_Mahal_Nasb] = @Original_Srl_Pm_Lab_Rol_Mahal_Nasb)) AND ((@IsNull_No = 1 AND [No] IS NULL) OR ([No] = @Original_No)) AND ((@IsNull_No_Barcode = 1 AND [No_Barcode] IS NULL) OR ([No_Barcode] = @Original_No_Barcode)) AND ((@IsNull_Pelak_Amval = 1 AND [Pelak_Amval] IS NULL) OR ([Pelak_Amval] = @Original_Pelak_Amval)) AND ((@IsNull_VorodDate = 1 AND [VorodDate] IS NULL) OR ([VorodDate] = @Original_VorodDate)) AND ((@IsNull_KhorojDate = 1 AND [KhorojDate] IS NULL) OR ([KhorojDate] = @Original_KhorojDate)) AND ((@IsNull_Tahvilgirande = 1 AND [Tahvilgirande] IS NULL) OR ([Tahvilgirande] = @Original_Tahvilgirande)) AND ((@IsNull_Tahvildahande = 1 AND [Tahvildahande] IS NULL) OR ([Tahvildahande] = @Original_Tahvildahande)) AND ((@IsNull_Eib = 1 AND [Eib] IS NULL) OR ([Eib] = @Original_Eib)) AND ((@IsNull_Dis = 1 AND [Dis] IS NULL) OR ([Dis] = @Original_Dis)) AND ((@IsNull_SubmitDate = 1 AND [SubmitDate] IS NULL) OR ([SubmitDate] = @Original_SubmitDate)) AND ((@IsNull_TahvildahandeNo = 1 AND [TahvildahandeNo] IS NULL) OR ([TahvildahandeNo] = @Original_TahvildahandeNo)) AND ((@IsNull_Srl_Pm_Lab_Rol_Mahal_Bahre = 1 AND [Srl_Pm_Lab_Rol_Mahal_Bahre] IS NULL) OR ([Srl_Pm_Lab_Rol_Mahal_Bahre] = @Original_Srl_Pm_Lab_Rol_Mahal_Bahre)) AND ((@IsNull_SabtDate = 1 AND [SabtDate] IS NULL) OR ([SabtDate] = @Original_SabtDate)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_SharheKar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_SharheKar" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_SharheKar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_SharheKar" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_No" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_No_Barcode" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="No_Barcode" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_No_Barcode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No_Barcode" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Pelak_Amval" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Pelak_Amval" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Pelak_Amval" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Pelak_Amval" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_VorodDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="VorodDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_VorodDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="VorodDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_KhorojDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="KhorojDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_KhorojDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="KhorojDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tahvilgirande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tahvilgirande" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Tahvilgirande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvilgirande" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tahvildahande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tahvildahande" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Tahvildahande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvildahande" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Eib" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Eib" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Eib" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Eib" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Dis" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Dis" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Dis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Dis" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SubmitDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SubmitDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_SubmitDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SubmitDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TahvildahandeNo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TahvildahandeNo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TahvildahandeNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TahvildahandeNo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SabtDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SabtDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_SabtDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SabtDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Pm_Lab_Rol_Master] ([Srl_Pm_Device_Sazande], [Srl_Pm_Lab_Rol_Tajhiz], [Srl_Pm_Lab_Rol_Masool_Tamir], [Srl_Pm_Lab_Rol_SharheKar], [Srl_Pm_Lab_Rol_Mahal_Nasb], [No], [No_Barcode], [Pelak_Amval], [VorodDate], [KhorojDate], [Tahvilgirande], [Tahvildahande], [Eib], [Dis], [SubmitDate], [TahvildahandeNo], [Srl_Pm_Lab_Rol_Mahal_Bahre], [SabtDate]) VALUES (@Srl_Pm_Device_Sazande, @Srl_Pm_Lab_Rol_Tajhiz, @Srl_Pm_Lab_Rol_Masool_Tamir, @Srl_Pm_Lab_Rol_SharheKar, @Srl_Pm_Lab_Rol_Mahal_Nasb, @No, @No_Barcode, @Pelak_Amval, @VorodDate, @KhorojDate, @Tahvilgirande, @Tahvildahande, @Eib, @Dis, @SubmitDate, @TahvildahandeNo, @Srl_Pm_Lab_Rol_Mahal_Bahre, @SabtDate);
+SELECT Srl, Srl_Pm_Device_Sazande, Srl_Pm_Lab_Rol_Tajhiz, Srl_Pm_Lab_Rol_Masool_Tamir, Srl_Pm_Lab_Rol_SharheKar, Srl_Pm_Lab_Rol_Mahal_Nasb, No, No_Barcode, Pelak_Amval, VorodDate, KhorojDate, Tahvilgirande, Tahvildahande, Eib, Dis, SubmitDate, TahvildahandeNo, Srl_Pm_Lab_Rol_Mahal_Bahre, SabtDate FROM Pm_Lab_Rol_Master WHERE (Srl = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_SharheKar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_SharheKar" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@No_Barcode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No_Barcode" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Pelak_Amval" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Pelak_Amval" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@VorodDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="VorodDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@KhorojDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="KhorojDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tahvilgirande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvilgirande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tahvildahande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvildahande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Eib" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Eib" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Dis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Dis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@SubmitDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SubmitDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TahvildahandeNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TahvildahandeNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SabtDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SabtDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM dbo.Pm_Lab_Rol_Master 
+where (No=@Number or @Number=-1)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Number" ColumnName="No" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@Number" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[Pm_Lab_Rol_Master] SET [Srl_Pm_Device_Sazande] = @Srl_Pm_Device_Sazande, [Srl_Pm_Lab_Rol_Tajhiz] = @Srl_Pm_Lab_Rol_Tajhiz, [Srl_Pm_Lab_Rol_Masool_Tamir] = @Srl_Pm_Lab_Rol_Masool_Tamir, [Srl_Pm_Lab_Rol_SharheKar] = @Srl_Pm_Lab_Rol_SharheKar, [Srl_Pm_Lab_Rol_Mahal_Nasb] = @Srl_Pm_Lab_Rol_Mahal_Nasb, [No] = @No, [No_Barcode] = @No_Barcode, [Pelak_Amval] = @Pelak_Amval, [VorodDate] = @VorodDate, [KhorojDate] = @KhorojDate, [Tahvilgirande] = @Tahvilgirande, [Tahvildahande] = @Tahvildahande, [Eib] = @Eib, [Dis] = @Dis, [SubmitDate] = @SubmitDate, [TahvildahandeNo] = @TahvildahandeNo, [Srl_Pm_Lab_Rol_Mahal_Bahre] = @Srl_Pm_Lab_Rol_Mahal_Bahre, [SabtDate] = @SabtDate WHERE (([Srl] = @Original_Srl) AND ((@IsNull_Srl_Pm_Device_Sazande = 1 AND [Srl_Pm_Device_Sazande] IS NULL) OR ([Srl_Pm_Device_Sazande] = @Original_Srl_Pm_Device_Sazande)) AND ((@IsNull_Srl_Pm_Lab_Rol_Tajhiz = 1 AND [Srl_Pm_Lab_Rol_Tajhiz] IS NULL) OR ([Srl_Pm_Lab_Rol_Tajhiz] = @Original_Srl_Pm_Lab_Rol_Tajhiz)) AND ((@IsNull_Srl_Pm_Lab_Rol_Masool_Tamir = 1 AND [Srl_Pm_Lab_Rol_Masool_Tamir] IS NULL) OR ([Srl_Pm_Lab_Rol_Masool_Tamir] = @Original_Srl_Pm_Lab_Rol_Masool_Tamir)) AND ((@IsNull_Srl_Pm_Lab_Rol_SharheKar = 1 AND [Srl_Pm_Lab_Rol_SharheKar] IS NULL) OR ([Srl_Pm_Lab_Rol_SharheKar] = @Original_Srl_Pm_Lab_Rol_SharheKar)) AND ((@IsNull_Srl_Pm_Lab_Rol_Mahal_Nasb = 1 AND [Srl_Pm_Lab_Rol_Mahal_Nasb] IS NULL) OR ([Srl_Pm_Lab_Rol_Mahal_Nasb] = @Original_Srl_Pm_Lab_Rol_Mahal_Nasb)) AND ((@IsNull_No = 1 AND [No] IS NULL) OR ([No] = @Original_No)) AND ((@IsNull_No_Barcode = 1 AND [No_Barcode] IS NULL) OR ([No_Barcode] = @Original_No_Barcode)) AND ((@IsNull_Pelak_Amval = 1 AND [Pelak_Amval] IS NULL) OR ([Pelak_Amval] = @Original_Pelak_Amval)) AND ((@IsNull_VorodDate = 1 AND [VorodDate] IS NULL) OR ([VorodDate] = @Original_VorodDate)) AND ((@IsNull_KhorojDate = 1 AND [KhorojDate] IS NULL) OR ([KhorojDate] = @Original_KhorojDate)) AND ((@IsNull_Tahvilgirande = 1 AND [Tahvilgirande] IS NULL) OR ([Tahvilgirande] = @Original_Tahvilgirande)) AND ((@IsNull_Tahvildahande = 1 AND [Tahvildahande] IS NULL) OR ([Tahvildahande] = @Original_Tahvildahande)) AND ((@IsNull_Eib = 1 AND [Eib] IS NULL) OR ([Eib] = @Original_Eib)) AND ((@IsNull_Dis = 1 AND [Dis] IS NULL) OR ([Dis] = @Original_Dis)) AND ((@IsNull_SubmitDate = 1 AND [SubmitDate] IS NULL) OR ([SubmitDate] = @Original_SubmitDate)) AND ((@IsNull_TahvildahandeNo = 1 AND [TahvildahandeNo] IS NULL) OR ([TahvildahandeNo] = @Original_TahvildahandeNo)) AND ((@IsNull_Srl_Pm_Lab_Rol_Mahal_Bahre = 1 AND [Srl_Pm_Lab_Rol_Mahal_Bahre] IS NULL) OR ([Srl_Pm_Lab_Rol_Mahal_Bahre] = @Original_Srl_Pm_Lab_Rol_Mahal_Bahre)) AND ((@IsNull_SabtDate = 1 AND [SabtDate] IS NULL) OR ([SabtDate] = @Original_SabtDate)));
+SELECT Srl, Srl_Pm_Device_Sazande, Srl_Pm_Lab_Rol_Tajhiz, Srl_Pm_Lab_Rol_Masool_Tamir, Srl_Pm_Lab_Rol_SharheKar, Srl_Pm_Lab_Rol_Mahal_Nasb, No, No_Barcode, Pelak_Amval, VorodDate, KhorojDate, Tahvilgirande, Tahvildahande, Eib, Dis, SubmitDate, TahvildahandeNo, Srl_Pm_Lab_Rol_Mahal_Bahre, SabtDate FROM Pm_Lab_Rol_Master WHERE (Srl = @Srl)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_SharheKar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_SharheKar" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@No_Barcode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No_Barcode" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Pelak_Amval" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Pelak_Amval" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@VorodDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="VorodDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@KhorojDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="KhorojDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tahvilgirande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvilgirande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tahvildahande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvildahande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Eib" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Eib" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Dis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Dis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@SubmitDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SubmitDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TahvildahandeNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TahvildahandeNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SabtDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SabtDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_SharheKar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_SharheKar" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_SharheKar" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_SharheKar" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_No" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_No" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_No_Barcode" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="No_Barcode" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_No_Barcode" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="No_Barcode" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Pelak_Amval" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Pelak_Amval" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Pelak_Amval" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Pelak_Amval" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_VorodDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="VorodDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_VorodDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="VorodDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_KhorojDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="KhorojDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_KhorojDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="KhorojDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tahvilgirande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tahvilgirande" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Tahvilgirande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvilgirande" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tahvildahande" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tahvildahande" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Tahvildahande" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tahvildahande" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Eib" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Eib" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Eib" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Eib" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Dis" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Dis" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Dis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Dis" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SubmitDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SubmitDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_SubmitDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SubmitDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TahvildahandeNo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TahvildahandeNo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TahvildahandeNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="TahvildahandeNo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SabtDate" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SabtDate" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_SabtDate" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SabtDate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Srl" ColumnName="Srl" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="Srl_Pm_Device_Sazande" DataSetColumn="Srl_Pm_Device_Sazande" />
+              <Mapping SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" DataSetColumn="Srl_Pm_Lab_Rol_Tajhiz" />
+              <Mapping SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" DataSetColumn="Srl_Pm_Lab_Rol_Masool_Tamir" />
+              <Mapping SourceColumn="Srl_Pm_Lab_Rol_SharheKar" DataSetColumn="Srl_Pm_Lab_Rol_SharheKar" />
+              <Mapping SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" DataSetColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" />
+              <Mapping SourceColumn="No" DataSetColumn="No" />
+              <Mapping SourceColumn="No_Barcode" DataSetColumn="No_Barcode" />
+              <Mapping SourceColumn="Pelak_Amval" DataSetColumn="Pelak_Amval" />
+              <Mapping SourceColumn="VorodDate" DataSetColumn="VorodDate" />
+              <Mapping SourceColumn="KhorojDate" DataSetColumn="KhorojDate" />
+              <Mapping SourceColumn="Tahvilgirande" DataSetColumn="Tahvilgirande" />
+              <Mapping SourceColumn="Tahvildahande" DataSetColumn="Tahvildahande" />
+              <Mapping SourceColumn="Eib" DataSetColumn="Eib" />
+              <Mapping SourceColumn="Dis" DataSetColumn="Dis" />
+              <Mapping SourceColumn="SubmitDate" DataSetColumn="SubmitDate" />
+              <Mapping SourceColumn="TahvildahandeNo" DataSetColumn="TahvildahandeNo" />
+              <Mapping SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" DataSetColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" />
+              <Mapping SourceColumn="SabtDate" DataSetColumn="SabtDate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Pm_Lab_Rol_Master_VwTableAdapter" GeneratorDataComponentClassName="Pm_Lab_Rol_Master_VwTableAdapter" Name="Pm_Lab_Rol_Master_Vw" UserDataComponentName="Pm_Lab_Rol_Master_VwTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+dbo.Pm_Lab_Rol_Master.[Srl],
+dbo.Pm_Lab_Rol_Master.[No] as "شماره" ,dbo.Pm_Lab_Rol_Master.[No_Barcode] as "بارکد",  dbo.Pm_Lab_Rol_Master.[VorodDate] as "تاریخ ورود تجهیز",dbo.Pm_Lab_Rol_Master.[KhorojDate] as "تاریخ خروج",dbo.Pm_Lab_Rol_Master.[SabtDate] as "تاریخ ثبت",  [dbo].[GetDateFromSharheKar] (dbo.Pm_Lab_Rol_Master.Srl) as "تاریخ",
+dbo.Pm_Lab_Rol_Tajhiz.Name as "نام تجهیز",dbo.Pm_Lab_Rol_Mahal.Name as "محل استفاده از تجهیز" ,dbo.Pm_Lab_Rol_Masool_Tamir.Name as "مسئول تعمیر",
+dbo.Pm_Device_Sazande.[Text] as "شرکت سازنده"
+
+FROM dbo.Pm_Lab_Rol_Master LEFT JOIN dbo.Pm_Lab_Rol_Tajhiz ON dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Tajhiz=dbo.Pm_Lab_Rol_Tajhiz.Srl 
+ LEFT JOIN dbo.Pm_Lab_Rol_Mahal ON dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Nasb=dbo.Pm_Lab_Rol_Mahal.Srl
+LEFT JOIN dbo.Pm_Lab_Rol_Masool_Tamir ON 
+dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Masool_Tamir=dbo.Pm_Lab_Rol_Masool_Tamir.Srl
+LEFT JOIN dbo.Pm_Device_Sazande ON
+ dbo.Pm_Lab_Rol_Master.Srl_Pm_Device_Sazande= dbo.Pm_Device_Sazande.Srl
+
+ORDER BY dbo.Pm_Lab_Rol_Master.Srl DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="نام تجهیز" DataSetColumn="نام تجهیز" />
+              <Mapping SourceColumn="محل استفاده از تجهیز" DataSetColumn="محل استفاده از تجهیز" />
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="شماره" DataSetColumn="شماره" />
+              <Mapping SourceColumn="تاریخ ورود تجهیز" DataSetColumn="تاریخ ورود تجهیز" />
+              <Mapping SourceColumn="مسئول تعمیر" DataSetColumn="مسئول تعمیر" />
+              <Mapping SourceColumn="تاریخ ثبت" DataSetColumn="تاریخ ثبت" />
+              <Mapping SourceColumn="شرکت سازنده" DataSetColumn="شرکت سازنده" />
+              <Mapping SourceColumn="تاریخ خروج" DataSetColumn="تاریخ خروج" />
+              <Mapping SourceColumn="بارکد" DataSetColumn="بارکد" />
+              <Mapping SourceColumn="تاریخ" DataSetColumn="تاریخ" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+dbo.Pm_Lab_Rol_Master.[Srl],
+dbo.Pm_Lab_Rol_Master.[No] as "شماره" ,dbo.Pm_Lab_Rol_Master.[No_Barcode] as "بارکد", dbo.Pm_Lab_Rol_Master.[VorodDate] as "تاریخ ورود تجهیز",dbo.Pm_Lab_Rol_Master.[SabtDate] as "تاریخ ثبت",
+ [dbo].[GetDateFromSharheKar] (dbo.Pm_Lab_Rol_Master.Srl) as "تاریخ",
+dbo.Pm_Lab_Rol_Tajhiz.Name as "نام تجهیز",dbo.Pm_Lab_Rol_Mahal.Name as "محل استفاده از تجهیز" ,dbo.Pm_Lab_Rol_Masool_Tamir.Name as "مسئول تعمیر",
+dbo.Pm_Device_Sazande.[Text] as "شرکت سازنده"
+FROM dbo.Pm_Lab_Rol_Master LEFT JOIN dbo.Pm_Lab_Rol_Tajhiz ON dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Tajhiz=dbo.Pm_Lab_Rol_Tajhiz.Srl 
+ LEFT JOIN dbo.Pm_Lab_Rol_Mahal ON dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Nasb=dbo.Pm_Lab_Rol_Mahal.Srl
+LEFT JOIN dbo.Pm_Lab_Rol_Masool_Tamir ON 
+dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Masool_Tamir=dbo.Pm_Lab_Rol_Masool_Tamir.Srl
+LEFT JOIN dbo.Pm_Device_Sazande ON
+ dbo.Pm_Lab_Rol_Master.Srl_Pm_Device_Sazande= dbo.Pm_Device_Sazande.Srl
+ where (Pm_Lab_Rol_Master.No =@No or @No='-1')
+ORDER BY dbo.Pm_Lab_Rol_Master.Srl DESC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="No" ColumnName="No" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@No" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="شماره" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBySeach" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBySearch" GeneratorSourceName="FillBySeach" GetMethodModifier="Public" GetMethodName="GetDataBySearch" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBySearch" UserSourceName="FillBySeach">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+dbo.Pm_Lab_Rol_Master.[Srl],
+dbo.Pm_Lab_Rol_Master.[No] as "شماره" ,dbo.Pm_Lab_Rol_Master.[No_Barcode] as "بارکد", dbo.Pm_Lab_Rol_Master.[Pelak_Amval] as "سریال" ,dbo.Pm_Lab_Rol_Master.[VorodDate] as "تاریخ ورود تجهیز",dbo.Pm_Lab_Rol_Master.[SabtDate] as "تاریخ ثبت",dbo.Pm_Lab_Rol_Master.[KhorojDate] as "تاریخ خروج", [dbo].[GetDateFromSharheKar] (dbo.Pm_Lab_Rol_Master.Srl) as "تاریخ",
+dbo.Pm_Lab_Rol_Tajhiz.Name as "نام تجهیز",dbo.Pm_Lab_Rol_Mahal.Name as "محل استفاده از تجهیز" ,dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Nasb , dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Bahre
+,dbo.Pm_Lab_Rol_Masool_Tamir.Name as "مسئول تعمیر",
+dbo.Pm_Device_Sazande.[Text] as "شرکت سازنده"
+FROM dbo.Pm_Lab_Rol_Master LEFT JOIN dbo.Pm_Lab_Rol_Tajhiz ON dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Tajhiz=dbo.Pm_Lab_Rol_Tajhiz.Srl 
+ LEFT JOIN dbo.Pm_Lab_Rol_Mahal ON dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Nasb=dbo.Pm_Lab_Rol_Mahal.Srl
+LEFT JOIN dbo.Pm_Lab_Rol_Masool_Tamir ON 
+dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Masool_Tamir=dbo.Pm_Lab_Rol_Masool_Tamir.Srl
+LEFT JOIN dbo.Pm_Device_Sazande ON
+ dbo.Pm_Lab_Rol_Master.Srl_Pm_Device_Sazande= dbo.Pm_Device_Sazande.Srl
+where  ( dbo.Pm_Lab_Rol_Master.No =@No or @No='-1') And
+ ( dbo.Pm_Lab_Rol_Master.No_Barcode =@No_Barcode or @No_Barcode='-1') And (dbo.Pm_Lab_Rol_Master.Pelak_Amval=@Serial or @Serial='-1' ) And
+( dbo.Pm_Lab_Rol_Master.Srl_Pm_Device_Sazande = @Srl_Pm_Device_Sazande or @Srl_Pm_Device_Sazande =-1) And
+( dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Tajhiz = @Srl_Pm_Lab_Rol_Tajhiz or @Srl_Pm_Lab_Rol_Tajhiz=-1)  And
+( dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Masool_Tamir = @Srl_Pm_Lab_Rol_Masool_Tamir or @Srl_Pm_Lab_Rol_Masool_Tamir=-1)  And
+( dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Nasb = @Srl_Pm_Lab_Rol_Mahal_Nasb or @Srl_Pm_Lab_Rol_Mahal_Nasb =-1)  And
+( dbo.Pm_Lab_Rol_Master.Srl_Pm_Lab_Rol_Mahal_Bahre = @Srl_Pm_Lab_Rol_Mahal_Bahre or @Srl_Pm_Lab_Rol_Mahal_Bahre =-1)  And
+(dbo.Pm_Lab_Rol_Master.[VorodDate] &gt;=@VorodDateFrom or @VorodDateFrom ='-1') And
+(dbo.Pm_Lab_Rol_Master.[VorodDate] &lt;=@VorodDateTo or @VorodDateTo ='-1') And
+(dbo.Pm_Lab_Rol_Master.[KhorojDate] &gt;= @KhorojDateFrom or @KhorojDateFrom ='-1') AND
+(dbo.Pm_Lab_Rol_Master.[KhorojDate] &lt;= @KhorojDateTo or @KhorojDateTo ='-1') AND
+(dbo.Pm_Lab_Rol_Master.[SabtDate] &gt;= @SabtDateFrom or @SabtDateFrom ='-1')  And
+(dbo.Pm_Lab_Rol_Master.[SabtDate] &lt;= @SabtDateTo or @SabtDateTo ='-1') 
+ORDER BY dbo.Pm_Lab_Rol_Master.No DESC
+
+</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="No" ColumnName="No" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@No" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="شماره" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="No_Barcode" ColumnName="No_Barcode" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@No_Barcode" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="بارکد" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Serial" ColumnName="Pelak_Amval" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@Serial" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="سریال" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Device_Sazande" ColumnName="Srl_Pm_Device_Sazande" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Device_Sazande" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Device_Sazande" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_Tajhiz" ColumnName="Srl_Pm_Lab_Rol_Tajhiz" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Tajhiz" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_Tajhiz" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_Masool_Tamir" ColumnName="Srl_Pm_Lab_Rol_Masool_Tamir" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Masool_Tamir" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_Masool_Tamir" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_Mahal_Nasb" ColumnName="Srl_Pm_Lab_Rol_Mahal_Nasb" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Mahal_Nasb" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Nasb" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Srl_Pm_Lab_Rol_Mahal_Bahre" ColumnName="Srl_Pm_Lab_Rol_Mahal_Bahre" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Srl_Pm_Lab_Rol_Mahal_Bahre" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Srl_Pm_Lab_Rol_Mahal_Bahre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="VorodDateFrom" ColumnName="VorodDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@VorodDateFrom" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ ورود تجهیز" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="VorodDateTo" ColumnName="VorodDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@VorodDateTo" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ ورود تجهیز" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="KhorojDateFrom" ColumnName="KhorojDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@KhorojDateFrom" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ خروج" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="KhorojDateTo" ColumnName="KhorojDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@KhorojDateTo" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ خروج" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="SabtDateFrom" ColumnName="SabtDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@SabtDateFrom" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ ثبت" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="SabtDateTo" ColumnName="SabtDate" DataSourceName="Nama_MIS.dbo.Pm_Lab_Rol_Master" DataTypeServer="nvarchar(10)" DbType="String" Direction="Input" ParameterName="@SabtDateTo" Precision="0" ProviderType="NVarChar" Scale="0" Size="10" SourceColumn="تاریخ ثبت" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_Lab" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Ds_Lab" msprop:Generator_DataSetName="Ds_Lab" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Pm_Lab_Rol_ElateVorod" msprop:Generator_UserTableName="Pm_Lab_Rol_ElateVorod" msprop:Generator_RowDeletedName="Pm_Lab_Rol_ElateVorodRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_ElateVorodRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_ElateVorodRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_ElateVorodRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_ElateVorodRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_ElateVorodRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_ElateVorodDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_ElateVorod" msprop:Generator_RowDeletingName="Pm_Lab_Rol_ElateVorodRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_ElateVorod">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="علت_x0020_ورود" msprop:Generator_UserColumnName="علت ورود" msprop:Generator_ColumnVarNameInTable="columnعلت_ورود" msprop:Generator_ColumnPropNameInRow="علت_ورود" msprop:Generator_ColumnPropNameInTable="علت_ورودColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_SatheAhamniat" msprop:Generator_UserTableName="Pm_Lab_Rol_SatheAhamniat" msprop:Generator_RowDeletedName="Pm_Lab_Rol_SatheAhamniatRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_SatheAhamniatRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_SatheAhamniatRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_SatheAhamniatRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_SatheAhamniatRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_SatheAhamniatRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_SatheAhamniatDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_SatheAhamniat" msprop:Generator_RowDeletingName="Pm_Lab_Rol_SatheAhamniatRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_SatheAhamniat">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="سطح_x0020_اهمیت" msprop:Generator_UserColumnName="سطح اهمیت" msprop:Generator_ColumnVarNameInTable="columnسطح_اهمیت" msprop:Generator_ColumnPropNameInRow="سطح_اهمیت" msprop:Generator_ColumnPropNameInTable="سطح_اهمیتColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Device_Sazande" msprop:Generator_UserTableName="Pm_Device_Sazande" msprop:Generator_RowDeletedName="Pm_Device_SazandeRowDeleted" msprop:Generator_RowChangedName="Pm_Device_SazandeRowChanged" msprop:Generator_RowClassName="Pm_Device_SazandeRow" msprop:Generator_RowChangingName="Pm_Device_SazandeRowChanging" msprop:Generator_RowEvArgName="Pm_Device_SazandeRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Device_SazandeRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Device_SazandeDataTable" msprop:Generator_TableVarName="tablePm_Device_Sazande" msprop:Generator_RowDeletingName="Pm_Device_SazandeRowDeleting" msprop:Generator_TablePropName="Pm_Device_Sazande">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="سازندگان" msprop:Generator_UserColumnName="سازندگان" msprop:Generator_ColumnVarNameInTable="columnسازندگان" msprop:Generator_ColumnPropNameInRow="سازندگان" msprop:Generator_ColumnPropNameInTable="سازندگانColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_GhatatMasrafi" msprop:Generator_UserTableName="Pm_Lab_Rol_GhatatMasrafi" msprop:Generator_RowDeletedName="Pm_Lab_Rol_GhatatMasrafiRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_GhatatMasrafiRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_GhatatMasrafiRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_GhatatMasrafiRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_GhatatMasrafiRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_GhatatMasrafiRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_GhatatMasrafiDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_GhatatMasrafi" msprop:Generator_RowDeletingName="Pm_Lab_Rol_GhatatMasrafiRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_GhatatMasrafi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="قطعات_x0020_مصرفی" msprop:Generator_UserColumnName="قطعات مصرفی" msprop:Generator_ColumnPropNameInRow="قطعات_مصرفی" msprop:Generator_ColumnVarNameInTable="columnقطعات_مصرفی" msprop:Generator_ColumnPropNameInTable="قطعات_مصرفیColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_TamiratView" msprop:Generator_UserTableName="Pm_Lab_Rol_TamiratView" msprop:Generator_RowDeletedName="Pm_Lab_Rol_TamiratViewRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_TamiratViewRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_TamiratViewRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_TamiratViewRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_TamiratViewRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_TamiratViewRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_TamiratViewDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_TamiratView" msprop:Generator_RowDeletingName="Pm_Lab_Rol_TamiratViewRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_TamiratView">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="شماره" msprop:Generator_UserColumnName="شماره" msprop:Generator_ColumnPropNameInRow="شماره" msprop:Generator_ColumnVarNameInTable="columnشماره" msprop:Generator_ColumnPropNameInTable="شمارهColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="نام_x0020_قطعه" msprop:Generator_UserColumnName="نام قطعه" msprop:Generator_ColumnPropNameInRow="نام_قطعه" msprop:Generator_ColumnVarNameInTable="columnنام_قطعه" msprop:Generator_ColumnPropNameInTable="نام_قطعهColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="پست" msprop:Generator_UserColumnName="پست" msprop:Generator_ColumnPropNameInRow="پست" msprop:Generator_ColumnVarNameInTable="columnپست" msprop:Generator_ColumnPropNameInTable="پستColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="سطح_x0020_اهمیت" msprop:Generator_UserColumnName="سطح اهمیت" msprop:Generator_ColumnPropNameInRow="سطح_اهمیت" msprop:Generator_ColumnVarNameInTable="columnسطح_اهمیت" msprop:Generator_ColumnPropNameInTable="سطح_اهمیتColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="علت_x0020_ورود" msprop:Generator_UserColumnName="علت ورود" msprop:Generator_ColumnPropNameInRow="علت_ورود" msprop:Generator_ColumnVarNameInTable="columnعلت_ورود" msprop:Generator_ColumnPropNameInTable="علت_ورودColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_تعمیر" msprop:Generator_UserColumnName="تاریخ تعمیر" msprop:Generator_ColumnVarNameInTable="columnتاریخ_تعمیر" msprop:Generator_ColumnPropNameInRow="تاریخ_تعمیر" msprop:Generator_ColumnPropNameInTable="تاریخ_تعمیرColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_تحویل" msprop:Generator_UserColumnName="تاریخ تحویل" msprop:Generator_ColumnVarNameInTable="columnتاریخ_تحویل" msprop:Generator_ColumnPropNameInRow="تاریخ_تحویل" msprop:Generator_ColumnPropNameInTable="تاریخ_تحویلColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_ورود" msprop:Generator_UserColumnName="تاریخ ورود" msprop:Generator_ColumnVarNameInTable="columnتاریخ_ورود" msprop:Generator_ColumnPropNameInRow="تاریخ_ورود" msprop:Generator_ColumnPropNameInTable="تاریخ_ورودColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="بازه_x0020_تعمیر" msprop:Generator_UserColumnName="بازه تعمیر" msprop:Generator_ColumnVarNameInTable="columnبازه_تعمیر" msprop:Generator_ColumnPropNameInRow="بازه_تعمیر" msprop:Generator_ColumnPropNameInTable="بازه_تعمیرColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="بازه_x0020_تحویل" msprop:Generator_UserColumnName="بازه تحویل" msprop:Generator_ColumnVarNameInTable="columnبازه_تحویل" msprop:Generator_ColumnPropNameInRow="بازه_تحویل" msprop:Generator_ColumnPropNameInTable="بازه_تحویلColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Srl_Pm_Hadese_KhesaratDevice" msprop:Generator_UserColumnName="Srl_Pm_Hadese_KhesaratDevice" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Hadese_KhesaratDevice" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Hadese_KhesaratDevice" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Hadese_KhesaratDeviceColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_Tamirat_GhateMasrafi" msprop:Generator_UserTableName="Pm_Lab_Rol_Tamirat_GhateMasrafi" msprop:Generator_RowDeletedName="Pm_Lab_Rol_Tamirat_GhateMasrafiRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_Tamirat_GhateMasrafiRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_Tamirat_GhateMasrafiRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_Tamirat_GhateMasrafiRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_Tamirat_GhateMasrafiRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_Tamirat_GhateMasrafiRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_Tamirat_GhateMasrafiDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_Tamirat_GhateMasrafi" msprop:Generator_RowDeletingName="Pm_Lab_Rol_Tamirat_GhateMasrafiRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_Tamirat_GhateMasrafi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Pm_Lab_Rol_GhatatMasrafi" msprop:Generator_UserColumnName="Pm_Lab_Rol_GhatatMasrafi" msprop:Generator_ColumnPropNameInRow="Pm_Lab_Rol_GhatatMasrafi" msprop:Generator_ColumnVarNameInTable="columnPm_Lab_Rol_GhatatMasrafi" msprop:Generator_ColumnPropNameInTable="Pm_Lab_Rol_GhatatMasrafiColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="قطعه_x0020_مصرفی" msprop:Generator_UserColumnName="قطعه مصرفی" msprop:Generator_ColumnPropNameInRow="قطعه_مصرفی" msprop:Generator_ColumnVarNameInTable="columnقطعه_مصرفی" msprop:Generator_ColumnPropNameInTable="قطعه_مصرفیColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تعداد" msprop:Generator_UserColumnName="تعداد" msprop:Generator_ColumnPropNameInRow="تعداد" msprop:Generator_ColumnVarNameInTable="columnتعداد" msprop:Generator_ColumnPropNameInTable="تعدادColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_SharheKar" msprop:Generator_UserTableName="Pm_Lab_Rol_SharheKar" msprop:Generator_RowDeletedName="Pm_Lab_Rol_SharheKarRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_SharheKarRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_SharheKarRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_SharheKarRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_SharheKarRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_SharheKarRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_SharheKarDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_SharheKar" msprop:Generator_RowDeletingName="Pm_Lab_Rol_SharheKarRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_SharheKar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dis" msprop:Generator_UserColumnName="Dis" msprop:Generator_ColumnPropNameInRow="Dis" msprop:Generator_ColumnVarNameInTable="columnDis" msprop:Generator_ColumnPropNameInTable="DisColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Srl_Master" msprop:Generator_UserColumnName="Srl_Master" msprop:Generator_ColumnPropNameInRow="Srl_Master" msprop:Generator_ColumnVarNameInTable="columnSrl_Master" msprop:Generator_ColumnPropNameInTable="Srl_MasterColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Srl1" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl1" msprop:Generator_ColumnPropNameInRow="Srl1" msprop:Generator_ColumnVarNameInTable="columnSrl1" msprop:Generator_ColumnPropNameInTable="Srl1Column" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_Masool_Tamir" msprop:Generator_UserTableName="Pm_Lab_Rol_Masool_Tamir" msprop:Generator_RowDeletedName="Pm_Lab_Rol_Masool_TamirRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_Masool_TamirRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_Masool_TamirRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_Masool_TamirRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_Masool_TamirRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_Masool_TamirRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_Masool_TamirDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_Masool_Tamir" msprop:Generator_RowDeletingName="Pm_Lab_Rol_Masool_TamirRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_Masool_Tamir">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_Tajhiz" msprop:Generator_UserTableName="Pm_Lab_Rol_Tajhiz" msprop:Generator_RowDeletedName="Pm_Lab_Rol_TajhizRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_TajhizRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_TajhizRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_TajhizRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_TajhizRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_TajhizRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_TajhizDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_Tajhiz" msprop:Generator_RowDeletingName="Pm_Lab_Rol_TajhizRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_Tajhiz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Srl_Parent" msprop:Generator_UserColumnName="Srl_Parent" msprop:Generator_ColumnVarNameInTable="columnSrl_Parent" msprop:Generator_ColumnPropNameInRow="Srl_Parent" msprop:Generator_ColumnPropNameInTable="Srl_ParentColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_Mahal" msprop:Generator_UserTableName="Pm_Lab_Rol_Mahal" msprop:Generator_RowDeletedName="Pm_Lab_Rol_MahalRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_MahalRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_MahalRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_MahalRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_MahalRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_MahalRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_MahalDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_Mahal" msprop:Generator_RowDeletingName="Pm_Lab_Rol_MahalRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_Mahal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="Srl_Parent" msprop:Generator_UserColumnName="Srl_Parent" msprop:Generator_ColumnPropNameInRow="Srl_Parent" msprop:Generator_ColumnVarNameInTable="columnSrl_Parent" msprop:Generator_ColumnPropNameInTable="Srl_ParentColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_Master" msprop:Generator_UserTableName="Pm_Lab_Rol_Master" msprop:Generator_RowDeletedName="Pm_Lab_Rol_MasterRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_MasterRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_MasterRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_MasterRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_MasterRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_MasterRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_MasterDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_Master" msprop:Generator_RowDeletingName="Pm_Lab_Rol_MasterRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_Master">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="Srl_Pm_Device_Sazande" msprop:Generator_UserColumnName="Srl_Pm_Device_Sazande" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Device_Sazande" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Device_Sazande" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Device_SazandeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Srl_Pm_Lab_Rol_Tajhiz" msprop:Generator_UserColumnName="Srl_Pm_Lab_Rol_Tajhiz" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Lab_Rol_Tajhiz" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Lab_Rol_Tajhiz" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Lab_Rol_TajhizColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Srl_Pm_Lab_Rol_Masool_Tamir" msprop:Generator_UserColumnName="Srl_Pm_Lab_Rol_Masool_Tamir" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Lab_Rol_Masool_Tamir" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Lab_Rol_Masool_Tamir" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Lab_Rol_Masool_TamirColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Srl_Pm_Lab_Rol_SharheKar" msprop:Generator_UserColumnName="Srl_Pm_Lab_Rol_SharheKar" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Lab_Rol_SharheKar" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Lab_Rol_SharheKar" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Lab_Rol_SharheKarColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Srl_Pm_Lab_Rol_Mahal_Nasb" msprop:Generator_UserColumnName="Srl_Pm_Lab_Rol_Mahal_Nasb" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Lab_Rol_Mahal_Nasb" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Lab_Rol_Mahal_Nasb" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Lab_Rol_Mahal_NasbColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="No" msprop:Generator_UserColumnName="No" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInTable="NoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="No_Barcode" msprop:Generator_UserColumnName="No_Barcode" msprop:Generator_ColumnPropNameInRow="No_Barcode" msprop:Generator_ColumnVarNameInTable="columnNo_Barcode" msprop:Generator_ColumnPropNameInTable="No_BarcodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pelak_Amval" msprop:Generator_UserColumnName="Pelak_Amval" msprop:Generator_ColumnPropNameInRow="Pelak_Amval" msprop:Generator_ColumnVarNameInTable="columnPelak_Amval" msprop:Generator_ColumnPropNameInTable="Pelak_AmvalColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VorodDate" msprop:Generator_UserColumnName="VorodDate" msprop:Generator_ColumnPropNameInRow="VorodDate" msprop:Generator_ColumnVarNameInTable="columnVorodDate" msprop:Generator_ColumnPropNameInTable="VorodDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KhorojDate" msprop:Generator_UserColumnName="KhorojDate" msprop:Generator_ColumnPropNameInRow="KhorojDate" msprop:Generator_ColumnVarNameInTable="columnKhorojDate" msprop:Generator_ColumnPropNameInTable="KhorojDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tahvilgirande" msprop:Generator_UserColumnName="Tahvilgirande" msprop:Generator_ColumnPropNameInRow="Tahvilgirande" msprop:Generator_ColumnVarNameInTable="columnTahvilgirande" msprop:Generator_ColumnPropNameInTable="TahvilgirandeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tahvildahande" msprop:Generator_UserColumnName="Tahvildahande" msprop:Generator_ColumnPropNameInRow="Tahvildahande" msprop:Generator_ColumnVarNameInTable="columnTahvildahande" msprop:Generator_ColumnPropNameInTable="TahvildahandeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Eib" msprop:Generator_UserColumnName="Eib" msprop:Generator_ColumnPropNameInRow="Eib" msprop:Generator_ColumnVarNameInTable="columnEib" msprop:Generator_ColumnPropNameInTable="EibColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dis" msprop:Generator_UserColumnName="Dis" msprop:Generator_ColumnPropNameInRow="Dis" msprop:Generator_ColumnVarNameInTable="columnDis" msprop:Generator_ColumnPropNameInTable="DisColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubmitDate" msprop:Generator_UserColumnName="SubmitDate" msprop:Generator_ColumnPropNameInRow="SubmitDate" msprop:Generator_ColumnVarNameInTable="columnSubmitDate" msprop:Generator_ColumnPropNameInTable="SubmitDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TahvildahandeNo" msprop:Generator_UserColumnName="TahvildahandeNo" msprop:Generator_ColumnPropNameInRow="TahvildahandeNo" msprop:Generator_ColumnVarNameInTable="columnTahvildahandeNo" msprop:Generator_ColumnPropNameInTable="TahvildahandeNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Srl_Pm_Lab_Rol_Mahal_Bahre" msprop:Generator_UserColumnName="Srl_Pm_Lab_Rol_Mahal_Bahre" msprop:Generator_ColumnPropNameInRow="Srl_Pm_Lab_Rol_Mahal_Bahre" msprop:Generator_ColumnVarNameInTable="columnSrl_Pm_Lab_Rol_Mahal_Bahre" msprop:Generator_ColumnPropNameInTable="Srl_Pm_Lab_Rol_Mahal_BahreColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SabtDate" msprop:Generator_UserColumnName="SabtDate" msprop:Generator_ColumnPropNameInRow="SabtDate" msprop:Generator_ColumnVarNameInTable="columnSabtDate" msprop:Generator_ColumnPropNameInTable="SabtDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pm_Lab_Rol_Master_Vw" msprop:Generator_UserTableName="Pm_Lab_Rol_Master_Vw" msprop:Generator_RowDeletedName="Pm_Lab_Rol_Master_VwRowDeleted" msprop:Generator_RowChangedName="Pm_Lab_Rol_Master_VwRowChanged" msprop:Generator_RowClassName="Pm_Lab_Rol_Master_VwRow" msprop:Generator_RowChangingName="Pm_Lab_Rol_Master_VwRowChanging" msprop:Generator_RowEvArgName="Pm_Lab_Rol_Master_VwRowChangeEvent" msprop:Generator_RowEvHandlerName="Pm_Lab_Rol_Master_VwRowChangeEventHandler" msprop:Generator_TableClassName="Pm_Lab_Rol_Master_VwDataTable" msprop:Generator_TableVarName="tablePm_Lab_Rol_Master_Vw" msprop:Generator_RowDeletingName="Pm_Lab_Rol_Master_VwRowDeleting" msprop:Generator_TablePropName="Pm_Lab_Rol_Master_Vw">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="نام_x0020_تجهیز" msprop:Generator_UserColumnName="نام تجهیز" msprop:Generator_ColumnVarNameInTable="columnنام_تجهیز" msprop:Generator_ColumnPropNameInRow="نام_تجهیز" msprop:Generator_ColumnPropNameInTable="نام_تجهیزColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="محل_x0020_استفاده_x0020_از_x0020_تجهیز" msprop:Generator_UserColumnName="محل استفاده از تجهیز" msprop:Generator_ColumnVarNameInTable="columnمحل_استفاده_از_تجهیز" msprop:Generator_ColumnPropNameInRow="محل_استفاده_از_تجهیز" msprop:Generator_ColumnPropNameInTable="محل_استفاده_از_تجهیزColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="شماره" msprop:Generator_UserColumnName="شماره" msprop:Generator_ColumnVarNameInTable="columnشماره" msprop:Generator_ColumnPropNameInRow="شماره" msprop:Generator_ColumnPropNameInTable="شمارهColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_ورود_x0020_تجهیز" msprop:Generator_UserColumnName="تاریخ ورود تجهیز" msprop:Generator_ColumnVarNameInTable="columnتاریخ_ورود_تجهیز" msprop:Generator_ColumnPropNameInRow="تاریخ_ورود_تجهیز" msprop:Generator_ColumnPropNameInTable="تاریخ_ورود_تجهیزColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="مسئول_x0020_تعمیر" msprop:Generator_UserColumnName="مسئول تعمیر" msprop:Generator_ColumnPropNameInRow="مسئول_تعمیر" msprop:Generator_ColumnVarNameInTable="columnمسئول_تعمیر" msprop:Generator_ColumnPropNameInTable="مسئول_تعمیرColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_ثبت" msprop:Generator_UserColumnName="تاریخ ثبت" msprop:Generator_ColumnVarNameInTable="columnتاریخ_ثبت" msprop:Generator_ColumnPropNameInRow="تاریخ_ثبت" msprop:Generator_ColumnPropNameInTable="تاریخ_ثبتColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="شرکت_x0020_سازنده" msprop:Generator_UserColumnName="شرکت سازنده" msprop:Generator_ColumnVarNameInTable="columnشرکت_سازنده" msprop:Generator_ColumnPropNameInRow="شرکت_سازنده" msprop:Generator_ColumnPropNameInTable="شرکت_سازندهColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_خروج" msprop:Generator_UserColumnName="تاریخ خروج" msprop:Generator_ColumnPropNameInRow="تاریخ_خروج" msprop:Generator_ColumnVarNameInTable="columnتاریخ_خروج" msprop:Generator_ColumnPropNameInTable="تاریخ_خروجColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="بارکد" msprop:Generator_UserColumnName="بارکد" msprop:Generator_ColumnVarNameInTable="columnبارکد" msprop:Generator_ColumnPropNameInRow="بارکد" msprop:Generator_ColumnPropNameInTable="بارکدColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ" msdata:ReadOnly="true" msprop:Generator_UserColumnName="تاریخ" msprop:Generator_ColumnPropNameInRow="تاریخ" msprop:Generator_ColumnVarNameInTable="columnتاریخ" msprop:Generator_ColumnPropNameInTable="تاریخColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_ElateVorod" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_SatheAhamniat_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_SatheAhamniat" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Device_Sazande_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Device_Sazande" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_GhatatMasrafi_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_GhatatMasrafi" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_TamiratView_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_TamiratView" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_SharheKar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_SharheKar" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_Masool_Tamir_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_Masool_Tamir" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_Tajhiz_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_Tajhiz" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_Mahal_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_Mahal" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_Master_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_Master" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+    <xs:unique name="Pm_Lab_Rol_Master_Vw_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pm_Lab_Rol_Master_Vw" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Pm_Lab_Rol_ElateVorod_Pm_Lab_Rol_SatheAhamniat" msdata:parent="Pm_Lab_Rol_ElateVorod" msdata:child="Pm_Lab_Rol_SatheAhamniat" msdata:parentkey="Srl" msdata:childkey="Srl" msprop:Generator_UserRelationName="Pm_Lab_Rol_ElateVorod_Pm_Lab_Rol_SatheAhamniat" msprop:Generator_RelationVarName="relationPm_Lab_Rol_ElateVorod_Pm_Lab_Rol_SatheAhamniat" msprop:Generator_UserChildTable="Pm_Lab_Rol_SatheAhamniat" msprop:Generator_UserParentTable="Pm_Lab_Rol_ElateVorod" msprop:Generator_ParentPropName="Pm_Lab_Rol_ElateVorodRow" msprop:Generator_ChildPropName="GetPm_Lab_Rol_SatheAhamniatRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Ds_Edu xmlns="http://tempuri.org/Ds_Edu.xsd">
+  <Pm_Edu_DoreType>
+    <Srl>3</Srl>
+    <عنوان>تخصصي</عنوان>
+  </Pm_Edu_DoreType>
+  <Pm_Edu_DoreType>
+    <Srl>4</Srl>
+    <عنوان>ايمني</عنوان>
+  </Pm_Edu_DoreType>
+  <Pm_Edu_DoreType>
+    <Srl>5</Srl>
+    <عنوان>عمومي</عنوان>
+  </Pm_Edu_DoreType>
+</Ds_Edu>

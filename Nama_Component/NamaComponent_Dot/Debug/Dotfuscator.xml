@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <global>
+    <option>debug</option>
+  </global>
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>stripoa</option>
+        <option>library</option>
+        <file dir="${configdir}\..\..\CS_Component\bin\Release" name="CS_Component.dll" />
+      </inputassembly>
+      <inputassembly>
+        <option>stripoa</option>
+        <option>library</option>
+        <file dir="${configdir}\..\..\VB_Component\bin\Release" name="VB_Component.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+  <controlflow level="high" />
+  <stringencrypt />
+  <codeprotection />
+  <removal />
+  <licensing>
+    <permutation name="" />
+    <product versionmask="revision" />
+    <nolicenseaction name="showactivation" />
+    <unlockingfeature name="" />
+  </licensing>
+</dotfuscator>

@@ -1,0 +1,1608 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Nama_PM
+</name>
+</assembly>
+<members>
+<member name="T:Nama_PM.Ds_Kala.Pm_KalaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_VahedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_SazandeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_AnbarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_KalaPricingMethodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_KalaPriceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_FactorDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_FactorMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Rp_FactorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Pm_KalaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_VahedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_SazandeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_AnbarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_KalaPricingMethodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_KalaPriceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_FactorDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_FactorMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Rp_FactorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Pm_KalaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_VahedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_SazandeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_AnbarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_KalaPricingMethodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_KalaPriceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_FactorDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Stg_FactorMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala.Rp_FactorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Kala">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Pm_KalaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_VahedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_SazandeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_AnbarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_KalaPricingMethodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_KalaPriceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_FactorDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Stg_FactorMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.Rp_FactorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Kala,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Kala,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Kala,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Kala)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_KalaTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Acc_Ashkhas_OnvanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Pm_SherkatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Acc_AshkhasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Pm_AshkhasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Acc_Ashkhas_OnvanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Pm_SherkatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Acc_AshkhasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Pm_AshkhasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Acc_Ashkhas_OnvanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Pm_SherkatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Acc_AshkhasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas.Pm_AshkhasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Ashkhas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.Acc_Ashkhas_OnvanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.Pm_SherkatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.Acc_AshkhasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.Pm_AshkhasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Ashkhas,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Ashkhas,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Ashkhas,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Ashkhas)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_AshkhasTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_ElateVorodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_SatheAhamniatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Device_SazandeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_GhatatMasrafiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_Tamirat_GhateMasrafiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_TamiratViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_ElateVorodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_SatheAhamniatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Device_SazandeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_GhatatMasrafiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_Tamirat_GhateMasrafiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_TamiratViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_ElateVorodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_SatheAhamniatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Device_SazandeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_GhatatMasrafiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_Tamirat_GhateMasrafiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab.Pm_Lab_Rol_TamiratViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Lab">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.Pm_Lab_Rol_ElateVorodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.Pm_Lab_Rol_SatheAhamniatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.Pm_Device_SazandeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.Pm_Lab_Rol_GhatatMasrafiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.Pm_Lab_Rol_Tamirat_GhateMasrafiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.Pm_Lab_Rol_TamiratViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Lab,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Lab,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Lab,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Lab)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_LabTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SummaryExtraWorkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_Pm_KalaUseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_MojodiAnbarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_GroupEibFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_NafarSatGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMaster1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_VahedEibFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_EibTypeEibFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_PostEibformDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_CompareGroupEibFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormWorkDisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.rp_EibformDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_NafarSatProjectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_KholaseWorkFormTmpDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SaghfeKarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SaghfKarTotalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMasterWithTEMPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_KholaseWorkFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_ExtraWorkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SummaryExtraWorkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_Pm_KalaUseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_MojodiAnbarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_GroupEibFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_NafarSatGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMaster1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_VahedEibFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_EibTypeEibFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_PostEibformRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_CompareGroupEibFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormWorkDisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.rp_EibformRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_NafarSatProjectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_KholaseWorkFormTmpRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SaghfeKarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SaghfKarTotalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMasterWithTEMPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_KholaseWorkFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_ExtraWorkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SummaryExtraWorkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_Pm_KalaUseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_MojodiAnbarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_GroupEibFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_NafarSatGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMaster1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_VahedEibFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_EibTypeEibFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_PostEibformRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_CompareGroupEibFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormWorkDisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.rp_EibformRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_NafarSatProjectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_KholaseWorkFormTmpRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SaghfeKarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_SaghfKarTotalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMasterWithTEMPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_WorkFormMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_KholaseWorkFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp.Rp_ExtraWorkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Rp">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_SummaryExtraWorkTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_Pm_KalaUseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_MojodiAnbarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_GroupEibFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_NafarSatGroupTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_WorkFormMaster1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_WorkFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_VahedEibFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_EibTypeEibFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_PostEibformTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_CompareGroupEibFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_WorkFormWorkDisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.rp_EibformTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_NafarSatProjectTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_KholaseWorkFormTmpTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_SaghfeKarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_SaghfKarTotalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_WorkFormMasterWithTEMPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_WorkFormMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_KholaseWorkFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.Rp_ExtraWorkTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Rp,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Rp,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Rp,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Rp)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_RpTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DeviceTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DeviceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostTipDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_VahedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_FixEibDisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DayOfWeekDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_GroupMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_EibFormPeiroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.pm_EibFormDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_FormulaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.WorkForm_MasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_HazineCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkSharhDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_EibTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostToGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_FindGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_SazandeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_KalaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_EibFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkFrom_DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DistanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.HafteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.pm_EibFormDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkDisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_GroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostmodelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DeviceTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DeviceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostTipRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_VahedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_FixEibDisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DayOfWeekRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_GroupMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_EibFormPeiroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.pm_EibFormDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_FormulaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.WorkForm_MasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_HazineCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkSharhRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_EibTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostToGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_FindGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_SazandeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_KalaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_EibFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkFrom_DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DistanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.HafteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.pm_EibFormRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkDisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_GroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostmodelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DeviceTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DeviceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostTipRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_VahedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_FixEibDisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DayOfWeekRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_GroupMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_EibFormPeiroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.pm_EibFormDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_FormulaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.WorkForm_MasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_HazineCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkSharhRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_EibTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostToGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_FindGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_SazandeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_KalaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkForm_EibFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkFrom_DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_DistanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.HafteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.pm_EibFormRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_WorkDisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_GroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm.Pm_PostmodelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Pm">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_DeviceTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_DeviceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_PostTipTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_VahedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_FixEibDisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_DayOfWeekTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_GroupMemberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_EibFormPeiroTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.pm_EibFormDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkForm_FormulaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.WorkForm_MasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_HazineCodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkSharhTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_EibTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_PostToGroupTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_FindGroupTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_SazandeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkForm_KalaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkForm_EibFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkFrom_DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_DistanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.HafteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.pm_EibFormTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_WorkDisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_PostTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_GroupTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.Pm_PostmodelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Pm,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Pm,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Pm,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Pm)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_PmTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Nama_PM.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Nama_PM.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Nama_PM.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Nama_PM.Ds_Security.sec_UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Security.sec_UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Security.sec_UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Security">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_SecurityTableAdapters.sec_UserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Security,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Security,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Security,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Security)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_SecurityTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Pm_TimeCardTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Pm_timeCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Rp_TimeCardBasedNumberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Pm_TimeCardTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Pm_timeCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Rp_TimeCardBasedNumberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Pm_TimeCardTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Pm_timeCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard.Rp_TimeCardBasedNumberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCard">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCardTableAdapters.Pm_TimeCardTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCardTableAdapters.Pm_timeCardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCardTableAdapters.Rp_TimeCardBasedNumberTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_TimeCard,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_TimeCard,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_TimeCard,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_TimeCard)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_TimeCardTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_ElatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_SharayetBorozDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_AmalkardSystemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_PishnahadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratDeviceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_HadeseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Rp_HadeseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_ElatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_SharayetBorozRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_AmalkardSystemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_PishnahadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratDeviceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_HadeseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Rp_HadeseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_ElatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_SharayetBorozRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_AmalkardSystemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_PishnahadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratDeviceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_Hadese_KhesaratRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Pm_HadeseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese.Rp_HadeseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Nama_PM.Ds_Hadese">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_ElatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_SharayetBorozTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_KhesaratTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_AmalkardSystemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_PishnahadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_KhesaratDeviceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_Hadese_KhesaratTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Pm_HadeseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.Rp_HadeseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.UpdateUpdatedRows(Nama_PM.Ds_Hadese,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.UpdateInsertedRows(Nama_PM.Ds_Hadese,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.UpdateDeletedRows(Nama_PM.Ds_Hadese,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.UpdateAll(Nama_PM.Ds_Hadese)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Nama_PM.Ds_HadeseTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_Security" targetNamespace="http://tempuri.org/Ds_Security.xsd" xmlns:mstns="http://tempuri.org/Ds_Security.xsd" xmlns="http://tempuri.org/Ds_Security.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Nama_PMConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Nama_PMConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Nama_PM.My.MySettings.GlobalReference.Default.Nama_PMConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sec_UserTableAdapter" GeneratorDataComponentClassName="sec_UserTableAdapter" Name="sec_User" UserDataComponentName="sec_UserTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Nama_PMConnectionString (MySettings)" DbObjectName="Nama_MIS.dbo.sec_User" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Srl, FirstName + '  ' + LastName + '[' + Username + ']' AS [نام کاربر]
+FROM            sec_User</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Srl" DataSetColumn="Srl" />
+              <Mapping SourceColumn="نام کاربر" DataSetColumn="نام کاربر" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_Security" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Ds_Security" msprop:Generator_DataSetName="Ds_Security" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sec_User" msprop:Generator_UserTableName="sec_User" msprop:Generator_RowDeletedName="sec_UserRowDeleted" msprop:Generator_RowChangedName="sec_UserRowChanged" msprop:Generator_RowClassName="sec_UserRow" msprop:Generator_RowChangingName="sec_UserRowChanging" msprop:Generator_RowEvArgName="sec_UserRowChangeEvent" msprop:Generator_RowEvHandlerName="sec_UserRowChangeEventHandler" msprop:Generator_TableClassName="sec_UserDataTable" msprop:Generator_TableVarName="tablesec_User" msprop:Generator_RowDeletingName="sec_UserRowDeleting" msprop:Generator_TablePropName="sec_User">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Srl" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Srl" msprop:Generator_ColumnVarNameInTable="columnSrl" msprop:Generator_ColumnPropNameInRow="Srl" msprop:Generator_ColumnPropNameInTable="SrlColumn" type="xs:int" />
+              <xs:element name="نام_x0020_کاربر" msdata:ReadOnly="true" msprop:Generator_UserColumnName="نام کاربر" msprop:Generator_ColumnVarNameInTable="columnنام_کاربر" msprop:Generator_ColumnPropNameInRow="نام_کاربر" msprop:Generator_ColumnPropNameInTable="نام_کاربرColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="154" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:sec_User" />
+      <xs:field xpath="mstns:Srl" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

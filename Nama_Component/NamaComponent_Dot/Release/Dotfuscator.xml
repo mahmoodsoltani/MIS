@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <global />
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>stripoa</option>
+        <option>library</option>
+        <file dir="${configdir}\..\..\CS_Component\bin\Release" name="CS_Component.dll" />
+      </inputassembly>
+      <inputassembly>
+        <option>stripoa</option>
+        <option>library</option>
+        <file dir="${configdir}\..\..\VB_Component\bin\Release" name="VB_Component.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <excludelist>
+      <assembly>
+        <file dir="${configdir}\..\..\VB_Component\bin\Release" name="VB_Component.dll" />
+      </assembly>
+      <namespace name="CS_Component.Properties" />
+      <namespace name="System.Windows.Forms" />
+      <type name="&lt;PrivateImplementationDetails&gt;{81DB7389-A220-4ECA-854A-CB94349A0D7C}" />
+      <type name="&lt;PrivateImplementationDetails&gt;{81DB7389-A220-4ECA-854A-CB94349A0D7C}/__StaticArrayInitTypeSize=20" />
+      <type name="&lt;PrivateImplementationDetails&gt;{81DB7389-A220-4ECA-854A-CB94349A0D7C}/__StaticArrayInitTypeSize=24" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+  <controlflow level="high">
+    <excludelist>
+      <namespace name="CS_Component.Properties" />
+      <namespace name="System.Windows.Forms" />
+      <namespace name="VB_Component.DataSet1TableAdapters" />
+      <namespace name="VB_Component.My" />
+      <namespace name="VB_Component.My.Resources" />
+      <namespace name="VB_Component.PictuerViewer" />
+      <type name="&lt;PrivateImplementationDetails&gt;{81DB7389-A220-4ECA-854A-CB94349A0D7C}" />
+      <type name="&lt;PrivateImplementationDetails&gt;{81DB7389-A220-4ECA-854A-CB94349A0D7C}/__StaticArrayInitTypeSize=20" />
+      <type name="&lt;PrivateImplementationDetails&gt;{81DB7389-A220-4ECA-854A-CB94349A0D7C}/__StaticArrayInitTypeSize=24" />
+    </excludelist>
+  </controlflow>
+  <stringencrypt>
+    <includelist>
+      <namespace name="CS_Component" />
+    </includelist>
+  </stringencrypt>
+  <codeprotection />
+  <removal>
+    <triggerlist>
+      <namespace name="CS_Component" />
+      <namespace name="System.Windows.Forms" />
+      <namespace name="VB_Component" />
+    </triggerlist>
+  </removal>
+  <licensing>
+    <permutation name="" />
+    <product versionmask="revision" />
+    <nolicenseaction name="showactivation" />
+    <unlockingfeature name="" />
+  </licensing>
+</dotfuscator>

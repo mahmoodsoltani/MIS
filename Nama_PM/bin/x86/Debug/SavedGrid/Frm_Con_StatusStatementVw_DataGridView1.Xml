@@ -1,0 +1,292 @@
+<?xml version="1.0" standalone="yes"?>
+<Ds_Con xmlns="http://tempuri.org/Ds_Con.xsd">
+  <Pm_Con_StatusStatementVw>
+    <شماره>14</شماره>
+    <تاریخ>1399/04/09</تاریخ>
+    <نام_x0020_واحد>خطوط</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه خط مشهد</نام_x0020_گروه>
+    <نام_x0020_پست />
+    <نام_x0020_خط>انشعاب ماشین های الکتریکی </نام_x0020_خط>
+    <نوع>غير فرم کار</نوع>
+    <Srl>3</Srl>
+    <Srl_vahed>76</Srl_vahed>
+    <Srl_group>189</Srl_group>
+    <srl_post>0</srl_post>
+    <srl_line>33</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>true</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>16</شماره>
+    <تاریخ>1399/04/23</تاریخ>
+    <نام_x0020_واحد>خطوط</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه خط مشهد</نام_x0020_گروه>
+    <نام_x0020_پست />
+    <نام_x0020_خط>سربداران-جوین</نام_x0020_خط>
+    <نوع>غير فرم کار</نوع>
+    <Srl>5</Srl>
+    <Srl_vahed>76</Srl_vahed>
+    <Srl_group>189</Srl_group>
+    <srl_post>0</srl_post>
+    <srl_line>32</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>17</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>خطوط</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه خط مشهد</نام_x0020_گروه>
+    <نام_x0020_پست />
+    <نام_x0020_خط>توس-سرخس</نام_x0020_خط>
+    <نوع>غير فرم کار</نوع>
+    <Srl>6</Srl>
+    <Srl_vahed>76</Srl_vahed>
+    <Srl_group>189</Srl_group>
+    <srl_post>0</srl_post>
+    <srl_line>21</srl_line>
+    <is_cancle>true</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>19</شماره>
+    <تاریخ>1399/02/31</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>8</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>20</شماره>
+    <تاریخ>1399/01/01</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>9</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>21</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>خطوط</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه خط مشهد</نام_x0020_گروه>
+    <نام_x0020_پست />
+    <نام_x0020_خط>دومداره تغذیه پست ابوطالب</نام_x0020_خط>
+    <نوع>غير فرم کار</نوع>
+    <Srl>10</Srl>
+    <Srl_vahed>76</Srl_vahed>
+    <Srl_group>189</Srl_group>
+    <srl_post>0</srl_post>
+    <srl_line>20</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>22</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 3 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>11</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>120</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>23</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>رلياژ</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 3 رلياژ</نام_x0020_گروه>
+    <نام_x0020_پست>بازار رضا</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>12</Srl>
+    <Srl_vahed>68</Srl_vahed>
+    <Srl_group>117</Srl_group>
+    <srl_post>568</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>24</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>خطوط</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه خط مشهد</نام_x0020_گروه>
+    <نام_x0020_پست />
+    <نام_x0020_خط>سرخس – ترکمنستان  </نام_x0020_خط>
+    <نوع>غير فرم کار</نوع>
+    <Srl>13</Srl>
+    <Srl_vahed>76</Srl_vahed>
+    <Srl_group>189</Srl_group>
+    <srl_post>0</srl_post>
+    <srl_line>16</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>25</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>14</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>26</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>15</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>27</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>16</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>28</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>17</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>29</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>تجهيزات پستها</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 4 پست</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>18</Srl>
+    <Srl_vahed>67</Srl_vahed>
+    <Srl_group>114</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>30</شماره>
+    <تاریخ>1399/02/30</تاریخ>
+    <نام_x0020_واحد>رلياژ</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 1 رلياژ</نام_x0020_گروه>
+    <نام_x0020_پست>400 شادمهر*</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>19</Srl>
+    <Srl_vahed>68</Srl_vahed>
+    <Srl_group>115</Srl_group>
+    <srl_post>777</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>31</شماره>
+    <تاریخ>1399/04/29</تاریخ>
+    <نام_x0020_واحد>رلياژ</نام_x0020_واحد>
+    <نام_x0020_گروه>گروه 1 رلياژ</نام_x0020_گروه>
+    <نام_x0020_پست>باخرز</نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>غير فرم کار</نوع>
+    <Srl>20</Srl>
+    <Srl_vahed>68</Srl_vahed>
+    <Srl_group>115</Srl_group>
+    <srl_post>564</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>true</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>false</is_holiday>
+  </Pm_Con_StatusStatementVw>
+  <Pm_Con_StatusStatementVw>
+    <شماره>129864</شماره>
+    <تاریخ>1399/01/04</تاریخ>
+    <نام_x0020_واحد>رلياژ</نام_x0020_واحد>
+    <نام_x0020_گروه>رلياژ توليد</نام_x0020_گروه>
+    <نام_x0020_پست>نيروگاه شريعتي </نام_x0020_پست>
+    <نام_x0020_خط />
+    <نوع>فرم کار</نوع>
+    <Srl>333449</Srl>
+    <Srl_vahed>68</Srl_vahed>
+    <Srl_group>148</Srl_group>
+    <srl_post>678</srl_post>
+    <srl_line>0</srl_line>
+    <is_cancle>false</is_cancle>
+    <is_night>false</is_night>
+    <is_holiday>true</is_holiday>
+  </Pm_Con_StatusStatementVw>
+</Ds_Con>
