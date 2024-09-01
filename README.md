@@ -23,7 +23,7 @@ This project is focused on the preventive maintenance system developed for a pri
 
 **Technologies Used**
 
-**.NET Framework:** The project is built on the .NET Framework 4.x, providing a robust environment for developing the application's backend and frontend.
+**.NET Framework:** The project is built on the .NET Framework, providing a robust environment for developing the application's backend and frontend.
 
 **SQL Server:** SQL Server 2019 is used as the primary database management system, offering reliable and secure data storage for the project's extensive database.
 
