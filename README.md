@@ -1,8 +1,17 @@
+# Preventive Maintenance System
+
+[![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.x-blue)](https://dotnet.microsoft.com/download/dotnet-framework)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-red)](https://www.microsoft.com/en-us/sql-server/sql-server-2019)
+[![Crystal Reports](https://img.shields.io/badge/Crystal%20Reports-SAP%20BusinessObjects-yellow)](https://www.sap.com/products/crystal-reports.html)
+[![C#](https://img.shields.io/badge/C%23-8.0%2B-blueviolet)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![VB.NET](https://img.shields.io/badge/VB.NET-Visual%20Basic-ff69b4)](https://docs.microsoft.com/en-us/dotnet/visual-basic/)
+
+
 **Project Description**
 
 This project is focused on the preventive maintenance system developed for a private company. The system is designed to manage and optimize the company's maintenance operations efficiently. The project encompasses a wide array of functionalities, including hundreds of information forms, a vast database structure, and numerous management and utility reports.
 
-**Key Features**
+**Key Features:**
 
 **1-Windows Forms:** The system includes hundreds of forms designed for various purposes, such as data entry, updating, and viewing maintenance information. These forms ensure that all necessary data is captured and stored correctly.
 
